@@ -6,13 +6,21 @@ using System.Threading.Tasks;
 
 namespace Pokedex
 {
-    public class Pokedex
+    public class PokedexData
     {
         public List<Move> Moves
         {
             get; set;
         }
         public List<Pokemon> PokemonList
+        {
+            get; set;
+        }
+        public List<Tuple<int, Move>> TMList
+        {
+            get; set;
+        }
+        public List<Tuple<int, Move>> HMList
         {
             get; set;
         }

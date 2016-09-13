@@ -17,11 +17,11 @@ namespace Pokedex
         {
             get; set;
         }
-        public Type Type1
+        public PokemonType Type1
         {
             get; set;
         }
-        public Type Type2
+        public PokemonType Type2
         {
             get; set;
         }
@@ -49,11 +49,36 @@ namespace Pokedex
         {
             get; set;
         }
-        public Dictionary<int, Move> LevelUpMoves
+        public Pokemon EvolvesFrom
+        {
+            get; set;
+        }
+        public List<Pokemon> EvolvesTo
+        {
+            get; set;
+        }
+        public List<Tuple<int, Move>> LevelUpMoves
+        {
+            get; set;
+        }
+        public List<int> LearnableTMs
+        {
+            get; set;
+        }
+        public List<int> LearnableHMs
         {
             get; set;
         }
         #endregion
 
+        public static int CompareByID(Pokemon p1, Pokemon p2)
+        {
+            return p1.ID.CompareTo(p2.ID);
+        }
+
+        public static int CompareByName(Pokemon p1, Pokemon p2)
+        {
+            return p1.Name.CompareTo(p2.Name);
+        }
     }
 }

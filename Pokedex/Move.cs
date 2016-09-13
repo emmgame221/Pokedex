@@ -5,10 +5,18 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Pokedex
-{
+{ 
     public class Move
     {
         public string Name
+        {
+            get; set;
+        }
+        public string Description
+        {
+            get; set;
+        }
+        public int PP
         {
             get; set;
         }
@@ -20,9 +28,22 @@ namespace Pokedex
         {
             get; set;
         }
-        public Type Type
+        public int EffectChance
         {
             get; set;
+        }
+        public PokemonType Type
+        {
+            get; set;
+        }
+        public Category DamageType
+        {
+            get; set;
+        }
+
+        public static int CompareByName(Move m1, Move m2)
+        {
+            return m1.Name.CompareTo(m2.Name);
         }
     }
 }
