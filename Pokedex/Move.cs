@@ -10,19 +10,19 @@ namespace Pokedex
     {
         public string Name
         {
-            get; private set;
+            get; set;
         }
         public int Power
         {
-            get; private set;
+            get; set;
         }
         public int Accuracy
         {
-            get; private set;
+            get; set;
         }
         public Type Type
         {
-            get; private set;
+            get; set;
         }
     }
 }

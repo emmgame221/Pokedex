@@ -11,53 +11,49 @@ namespace Pokedex
         #region Properties
         public string Name
         {
-            get; private set;
+            get; set;
         }
         public int ID
         {
-            get; private set;
+            get; set;
         }
         public Type Type1
         {
-            get; private set;
+            get; set;
         }
         public Type Type2
         {
-            get; private set;
+            get; set;
         }
         public int BaseHP
         {
-            get; private set;
+            get; set;
         }
         public int BaseAttack
         {
-            get; private set;
+            get; set;
         }
         public int BaseDefense
         {
-            get; private set;
+            get; set;
         }
         public int BaseSpecialAttack
         {
-            get; private set;
+            get; set;
         }
         public int BaseSpecialDefense
         {
-            get; private set;
+            get; set;
         }
         public int BaseSpeed
         {
-            get; private set;
+            get; set;
         }
         public Dictionary<int, Move> LevelUpMoves
         {
-            get; private set;
+            get; set;
         }
         #endregion
 
-        public void Serialize()
-        {
-
-        }
     }
 }

@@ -10,21 +10,21 @@ namespace Pokedex
     {
         public List<Move> Moves
         {
-            get; private set;
+            get; set;
         }
-        public List<Pokemon> pokemonList
+        public List<Pokemon> PokemonList
         {
-            get; private set;
+            get; set;
         }
 
         public Pokemon GetPokemon(string name)
         {
-            return pokemonList.Find(p => p.Name == name);
+            return PokemonList.Find(p => p.Name == name);
         }
 
         public Pokemon GetPokemon(int id)
         {
-            return pokemonList.Find(p => p.ID == id);
+            return PokemonList.Find(p => p.ID == id);
         }
     }
 }

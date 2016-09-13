@@ -15,14 +15,11 @@ namespace PokedexGUI
         [STAThread]
         static void Main()
         {
+            JsonTest();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainForm());
         }
-
-        static void JsonTest()
-        {
-
-        }
+        
     }
 }
