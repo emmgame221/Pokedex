@@ -25,6 +25,18 @@ namespace Pokedex
         {
             get; set;
         }
+        public string Ability1
+        {
+            get; set;
+        }
+        public string Ability2
+        {
+            get; set;
+        }
+        public string Ability3
+        {
+            get; set;
+        }
         public int BaseHP
         {
             get; set;

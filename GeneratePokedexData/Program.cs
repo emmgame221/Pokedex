@@ -15,11 +15,12 @@ namespace GeneratePokedexData
         {
             PokedexData dex = new PokedexData();
             Console.WriteLine("Checking for existing pokedex data");
-            if(File.Exists(fileName))
+            if (File.Exists(fileName))
             {
                 Console.WriteLine("Pokedex data found");
                 dex = JsonConvert.DeserializeObject<PokedexData>(File.ReadAllText(fileName));
-            } else
+            }
+            else
             {
                 Console.WriteLine("No data found, creating new data");
                 dex.Moves = new List<Move>();
@@ -28,11 +29,12 @@ namespace GeneratePokedexData
                 dex.HMList = new List<Tuple<int, Move>>();
             }
             bool endFlag = false;
-            while(!endFlag)
+            while (!endFlag)
             {
                 Console.WriteLine("Type q to exit, p for new pokemon, m for new move, t for tms, h for hms.");
                 string input = Console.ReadLine();
-                switch (input) {
+                switch (input)
+                {
                     case "q":
                         endFlag = true;
                         continue;
@@ -63,7 +65,7 @@ namespace GeneratePokedexData
             if (dex.PokemonList.Exists(p => p.Name == input))
             {
                 Console.WriteLine("That pokemon is already known. o to Overwrite");
-                if(Console.ReadLine() == "o")
+                if (Console.ReadLine() == "o")
                 {
                     dex.PokemonList.RemoveAll(p => p.Name == input);
                     CreateNewPokemon(dex, input);
@@ -111,6 +113,12 @@ namespace GeneratePokedexData
                 Console.WriteLine("That is not a valid type.");
                 return;
             }
+            Console.WriteLine("Ability1: ");
+            newPokemon.Ability1 = Console.ReadLine();
+            Console.WriteLine("Ability2: ");
+            newPokemon.Ability2 = Console.ReadLine();
+            Console.WriteLine("Ability3: ");
+            newPokemon.Ability3 = Console.ReadLine();
             Console.WriteLine("Base HP: ");
             int hp;
             if (int.TryParse(Console.ReadLine(), out hp))
@@ -179,7 +187,7 @@ namespace GeneratePokedexData
             }
             Console.WriteLine("Evolves from: ");
             string prevo = Console.ReadLine();
-            if(prevo.Length > 0 && !dex.PokemonList.Exists(p => p.Name == prevo))
+            if (prevo.Length > 0 && !dex.PokemonList.Exists(p => p.Name == prevo))
             {
                 Console.WriteLine("That pokemon doesn't exist yet. Let's create it.");
                 CreateNewPokemon(dex, prevo);
@@ -188,23 +196,25 @@ namespace GeneratePokedexData
             Console.WriteLine("How many pokemon can this pokemon evolve to?");
             int evoNum;
             newPokemon.EvolvesTo = new List<Pokemon>();
-            if(int.TryParse(Console.ReadLine(), out evoNum))
+            if (int.TryParse(Console.ReadLine(), out evoNum))
             {
-                for(int i = 0; i < evoNum; i++)
+                for (int i = 0; i < evoNum; i++)
                 {
                     Console.WriteLine("Evolves to: ");
                     string evo = Console.ReadLine();
-                    if(!dex.PokemonList.Exists(p => p.Name == evo))
+                    if (!dex.PokemonList.Exists(p => p.Name == evo))
                     {
                         Console.WriteLine("That pokemon doesn't exist yet. Let's create it.");
                         CreateNewPokemon(dex, evo);
                         newPokemon.EvolvesTo.Add(dex.PokemonList.Find(p => p.Name == evo));
-                    } else
+                    }
+                    else
                     {
                         newPokemon.EvolvesTo.Add(dex.PokemonList.Find(p => p.Name == evo));
                     }
                 }
-            } else
+            }
+            else
             {
                 Console.WriteLine("That is not an integer.");
                 return;
@@ -212,9 +222,9 @@ namespace GeneratePokedexData
             Console.WriteLine("How many moves does this pokemon learn by level up?");
             int moveNum;
             newPokemon.LevelUpMoves = new List<Tuple<int, Move>>();
-            if(int.TryParse(Console.ReadLine(), out moveNum))
+            if (int.TryParse(Console.ReadLine(), out moveNum))
             {
-                for(int i= 0; i < moveNum; i++)
+                for (int i = 0; i < moveNum; i++)
                 {
                     Console.WriteLine("Level Learned: ");
                     int level = int.Parse(Console.ReadLine());
@@ -227,7 +237,8 @@ namespace GeneratePokedexData
                     }
                     newPokemon.LevelUpMoves.Add(new Tuple<int, Move>(level, dex.Moves.Find(m => m.Name == move)));
                 }
-            } else
+            }
+            else
             {
                 Console.WriteLine("That is not an integer.");
                 SaveData(dex);
@@ -235,15 +246,16 @@ namespace GeneratePokedexData
             Console.WriteLine("How many tms can this pokemon learn?");
             newPokemon.LearnableTMs = new List<int>();
             int tmNum;
-            if(int.TryParse(Console.ReadLine(), out tmNum))
+            if (int.TryParse(Console.ReadLine(), out tmNum))
             {
-                for(int i = 0; i < tmNum; i++)
+                for (int i = 0; i < tmNum; i++)
                 {
                     Console.WriteLine("TM Number: ");
                     int tm = int.Parse(Console.ReadLine());
                     newPokemon.LearnableTMs.Add(tm);
                 }
-            } else
+            }
+            else
             {
                 Console.WriteLine("That is not an integer.");
                 SaveData(dex);
@@ -257,7 +269,7 @@ namespace GeneratePokedexData
                 {
                     Console.WriteLine("HM Number: ");
                     int hm = int.Parse(Console.ReadLine());
-                    newPokemon.LearnableTMs.Add(hm);
+                    newPokemon.LearnableHMs.Add(hm);
                 }
             }
             else
@@ -357,7 +369,7 @@ namespace GeneratePokedexData
 
         public static void SetupTMs(PokedexData dex)
         {
-            Console.WriteLine("How many HMs are there?");
+            Console.WriteLine("How many TMs are there?");
             int tmNo;
             if (int.TryParse(Console.ReadLine(), out tmNo))
             {
@@ -384,20 +396,21 @@ namespace GeneratePokedexData
         {
             Console.WriteLine("How many HMs are there?");
             int hmNo;
-            if(int.TryParse(Console.ReadLine(), out hmNo))
+            if (int.TryParse(Console.ReadLine(), out hmNo))
             {
-                for(int i = 1; i <= hmNo; i++)
+                for (int i = 1; i <= hmNo; i++)
                 {
                     Console.WriteLine("Name of HM number {0}: ", i);
                     string move = Console.ReadLine();
-                    if(!dex.Moves.Exists(m => m.Name == move))
+                    if (!dex.Moves.Exists(m => m.Name == move))
                     {
                         Console.WriteLine("That move doesn't exist yet. Let's create it.");
                         CreateNewMove(dex, move);
                     }
                     dex.HMList.Add(new Tuple<int, Move>(i, dex.Moves.Find(m => m.Name == move)));
                 }
-            } else
+            }
+            else
             {
                 Console.WriteLine("That is not an integer");
                 SaveData(dex);

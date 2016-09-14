@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Pokedex
-{ 
+{
     public class Move
     {
         public string Name
