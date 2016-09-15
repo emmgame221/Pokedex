@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Newtonsoft.Json;
 
 namespace Pokedex
 {
+    [JsonObject(IsReference = true)]
     public class Move
     {
         public string Name

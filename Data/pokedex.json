@@ -1,8 +1,7 @@
 {
-  "$id": "1",
   "Moves": [
     {
-      "$id": "2",
+      "$id": "1",
       "Name": "Acrobatics",
       "Description": "The user nimbly strikes the target. If the user is not holding an item, this attack inflicts massive damage.",
       "PP": 15,
@@ -13,7 +12,7 @@
       "DamageType": 0
     },
     {
-      "$id": "3",
+      "$id": "2",
       "Name": "Aerial Ace",
       "Description": "The user confounds the target with speed, then slashes. The attack lands without fail.",
       "PP": 20,
@@ -24,7 +23,7 @@
       "DamageType": 0
     },
     {
-      "$id": "4",
+      "$id": "3",
       "Name": "Agility",
       "Description": "The user relaxes and lightens its body to move faster. It sharply boosts the Speed stat.",
       "PP": 30,
@@ -35,7 +34,7 @@
       "DamageType": 2
     },
     {
-      "$id": "5",
+      "$id": "4",
       "Name": "Air Slash",
       "Description": "The user attacks with a blade of air that slices even the sky. It may also make the target flinch.",
       "PP": 15,
@@ -46,7 +45,7 @@
       "DamageType": 1
     },
     {
-      "$id": "6",
+      "$id": "5",
       "Name": "Amnesia",
       "Description": "The user temporarily empties its mind to forget its concerns. It sharply raises the user's Sp. Def stat.",
       "PP": 20,
@@ -57,7 +56,7 @@
       "DamageType": 2
     },
     {
-      "$id": "7",
+      "$id": "6",
       "Name": "Ancient Power",
       "Description": "The user attacks with a prehistoric power. It may also raise all the user's stats at once.",
       "PP": 5,
@@ -68,7 +67,7 @@
       "DamageType": 1
     },
     {
-      "$id": "8",
+      "$id": "7",
       "Name": "Attract",
       "Description": "If it is the opposite gender of the user, the target becomes infatuated and less likely to attack.",
       "PP": 15,
@@ -79,7 +78,7 @@
       "DamageType": 2
     },
     {
-      "$id": "9",
+      "$id": "8",
       "Name": "Aura Sphere",
       "Description": "The user looses a blast of aura power from deep within its body at the target. This move is certain to hit.",
       "PP": 20,
@@ -90,7 +89,7 @@
       "DamageType": 1
     },
     {
-      "$id": "10",
+      "$id": "9",
       "Name": "Barrier",
       "Description": "The user throws up a sturdy wall that sharply raises its Defense stat.",
       "PP": 20,
@@ -101,7 +100,7 @@
       "DamageType": 2
     },
     {
-      "$id": "11",
+      "$id": "10",
       "Name": "Baton Pass",
       "Description": "The user switches places with a party Pokémon in waiting, passing along any stat changes.",
       "PP": 40,
@@ -112,7 +111,7 @@
       "DamageType": 2
     },
     {
-      "$id": "12",
+      "$id": "11",
       "Name": "Blizzard",
       "Description": "A howling blizzard is summoned to strike the opposing team. It may also freeze them solid.",
       "PP": 5,
@@ -123,7 +122,7 @@
       "DamageType": 1
     },
     {
-      "$id": "13",
+      "$id": "12",
       "Name": "Brick Break",
       "Description": "The user attacks with a swift chop. It can also break any barrier such as Light Screen and Reflect.",
       "PP": 15,
@@ -134,7 +133,7 @@
       "DamageType": 0
     },
     {
-      "$id": "14",
+      "$id": "13",
       "Name": "Bulk Up",
       "Description": "The user tenses its muscles to bulk up its body, boosting both its Attack and Defense stats.",
       "PP": 20,
@@ -145,7 +144,7 @@
       "DamageType": 2
     },
     {
-      "$id": "15",
+      "$id": "14",
       "Name": "Bulldoze",
       "Description": "The user stomps down on the ground and attacks everything in the area. Hit Pokémon's Speed stat is reduced.",
       "PP": 20,
@@ -156,7 +155,7 @@
       "DamageType": 0
     },
     {
-      "$id": "16",
+      "$id": "15",
       "Name": "Calm Mind",
       "Description": "The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats.",
       "PP": 20,
@@ -167,7 +166,7 @@
       "DamageType": 2
     },
     {
-      "$id": "17",
+      "$id": "16",
       "Name": "Charge",
       "Description": "The user boosts the power of the Electric move it uses on the next turn. It also raises the user's Sp. Def stat.",
       "PP": 20,
@@ -178,7 +177,7 @@
       "DamageType": 2
     },
     {
-      "$id": "18",
+      "$id": "17",
       "Name": "Charge Beam",
       "Description": "The user attacks with an electric charge. The user may use any remaining electricity to raise its Sp. Atk stat.",
       "PP": 10,
@@ -189,7 +188,7 @@
       "DamageType": 1
     },
     {
-      "$id": "19",
+      "$id": "18",
       "Name": "Confide",
       "Description": "The user tells the target a secret, and the target loses its ability to concentrate. This lowers the target's Sp. Atk stat.",
       "PP": 20,
@@ -200,7 +199,7 @@
       "DamageType": 2
     },
     {
-      "$id": "20",
+      "$id": "19",
       "Name": "Confusion",
       "Description": "The target is hit by a weak telekinetic force. It may also leave the target confused.",
       "PP": 25,
@@ -211,7 +210,7 @@
       "DamageType": 1
     },
     {
-      "$id": "21",
+      "$id": "20",
       "Name": "Cut",
       "Description": "The target is cut with a scythe or a claw. It can also be used to cut down thin trees.",
       "PP": 30,
@@ -222,7 +221,7 @@
       "DamageType": 0
     },
     {
-      "$id": "22",
+      "$id": "21",
       "Name": "Dark Pulse",
       "Description": "The user releases a horrible aura imbued with dark thoughts. It may also make the target flinch.",
       "PP": 15,
@@ -233,7 +232,7 @@
       "DamageType": 1
     },
     {
-      "$id": "23",
+      "$id": "22",
       "Name": "Dazzling Gleam",
       "Description": "The user damages opposing Pokémon by emitting a powerful flash.",
       "PP": 10,
@@ -244,7 +243,7 @@
       "DamageType": 1
     },
     {
-      "$id": "24",
+      "$id": "23",
       "Name": "Detect",
       "Description": "It enables the user to evade all attacks. Its chance of failing rises if it is used in succession.",
       "PP": 5,
@@ -255,7 +254,7 @@
       "DamageType": 2
     },
     {
-      "$id": "25",
+      "$id": "24",
       "Name": "Dig",
       "Description": "The user burrows, then attacks on the second turn. It can also be used to exit dungeons.",
       "PP": 10,
@@ -266,7 +265,7 @@
       "DamageType": 0
     },
     {
-      "$id": "26",
+      "$id": "25",
       "Name": "Disable",
       "Description": "For four turns, this move prevents the target from using the move it last used.",
       "PP": 20,
@@ -277,7 +276,7 @@
       "DamageType": 2
     },
     {
-      "$id": "27",
+      "$id": "26",
       "Name": "Discharge",
       "Description": "A flare of electricity is loosed to strike the area around the user. It may also cause paralysis.",
       "PP": 15,
@@ -288,7 +287,7 @@
       "DamageType": 1
     },
     {
-      "$id": "28",
+      "$id": "27",
       "Name": "Dive",
       "Description": "Diving on the first turn, the user floats up and attacks on the second turn. It can be used to dive deep in the ocean.",
       "PP": 10,
@@ -299,7 +298,7 @@
       "DamageType": 0
     },
     {
-      "$id": "29",
+      "$id": "28",
       "Name": "Double Team",
       "Description": "By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.",
       "PP": 15,
@@ -310,7 +309,7 @@
       "DamageType": 2
     },
     {
-      "$id": "30",
+      "$id": "29",
       "Name": "Double-Edge",
       "Description": "A reckless, life-risking tackle. It also damages the user by a fairly large amount, however.",
       "PP": 15,
@@ -321,7 +320,7 @@
       "DamageType": 0
     },
     {
-      "$id": "31",
+      "$id": "30",
       "Name": "Dragon Claw",
       "Description": "The user slashes the target with huge, sharp claws.",
       "PP": 15,
@@ -332,7 +331,7 @@
       "DamageType": 0
     },
     {
-      "$id": "32",
+      "$id": "31",
       "Name": "Dragon Rage",
       "Description": "This attack hits the target with a shock wave of pure rage. This attack always inflicts 40 HP damage.",
       "PP": 10,
@@ -343,7 +342,7 @@
       "DamageType": 1
     },
     {
-      "$id": "33",
+      "$id": "32",
       "Name": "Dragon Tail",
       "Description": "The user knocks away the target and drags out another Pokémon in its party. In the wild, the battle ends.",
       "PP": 10,
@@ -354,7 +353,7 @@
       "DamageType": 0
     },
     {
-      "$id": "34",
+      "$id": "33",
       "Name": "Dream Eater",
       "Description": "The user eats the dreams of a sleeping target. It absorbs half the damage caused to heal the user's HP.",
       "PP": 15,
@@ -365,7 +364,7 @@
       "DamageType": 1
     },
     {
-      "$id": "35",
+      "$id": "34",
       "Name": "Drill Peck",
       "Description": "A corkscrewing attack with the sharp beak acting as a drill.",
       "PP": 20,
@@ -376,7 +375,7 @@
       "DamageType": 0
     },
     {
-      "$id": "36",
+      "$id": "35",
       "Name": "Earthquake",
       "Description": "The user sets off an earthquake that strikes those around it.",
       "PP": 10,
@@ -387,7 +386,7 @@
       "DamageType": 0
     },
     {
-      "$id": "37",
+      "$id": "36",
       "Name": "Echoed Voice",
       "Description": "The user attacks the target with an echoing voice. If this move is used every turn, it does greater damage.",
       "PP": 15,
@@ -398,7 +397,7 @@
       "DamageType": 1
     },
     {
-      "$id": "38",
+      "$id": "37",
       "Name": "Embargo",
       "Description": "It prevents the target from using its held item. Its Trainer is also prevented from using items on it.",
       "PP": 15,
@@ -409,7 +408,7 @@
       "DamageType": 2
     },
     {
-      "$id": "39",
+      "$id": "38",
       "Name": "Ember",
       "Description": "The target is attacked with small flames. It may also leave the target with a burn.",
       "PP": 25,
@@ -420,7 +419,7 @@
       "DamageType": 1
     },
     {
-      "$id": "40",
+      "$id": "39",
       "Name": "Endure",
       "Description": "The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.",
       "PP": 10,
@@ -431,7 +430,7 @@
       "DamageType": 2
     },
     {
-      "$id": "41",
+      "$id": "40",
       "Name": "Energy Ball",
       "Description": "The user draws power from nature and fires it at the target. It may also lower the target's Sp. Def.",
       "PP": 10,
@@ -442,7 +441,7 @@
       "DamageType": 1
     },
     {
-      "$id": "42",
+      "$id": "41",
       "Name": "Explosion",
       "Description": "The user explodes to inflict damage on those around it. The user faints upon using this move.",
       "PP": 5,
@@ -453,7 +452,7 @@
       "DamageType": 0
     },
     {
-      "$id": "43",
+      "$id": "42",
       "Name": "Facade",
       "Description": "An attack move that doubles its power if the user is poisoned, burned, or has paralysis.",
       "PP": 20,
@@ -464,7 +463,7 @@
       "DamageType": 0
     },
     {
-      "$id": "44",
+      "$id": "43",
       "Name": "False Swipe",
       "Description": "A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.",
       "PP": 40,
@@ -475,7 +474,7 @@
       "DamageType": 0
     },
     {
-      "$id": "45",
+      "$id": "44",
       "Name": "Fire Blast",
       "Description": "The target is attacked with an intense blast of all-consuming fire. It may also leave the target with a burn.",
       "PP": 5,
@@ -486,7 +485,7 @@
       "DamageType": 1
     },
     {
-      "$id": "46",
+      "$id": "45",
       "Name": "Fire Fang",
       "Description": "The user bites with flame-cloaked fangs. It may also make the target flinch or leave it burned.",
       "PP": 15,
@@ -497,7 +496,7 @@
       "DamageType": 0
     },
     {
-      "$id": "47",
+      "$id": "46",
       "Name": "Fire Spin",
       "Description": "The target becomes trapped within a fierce vortex of fire that rages for four to five turns.",
       "PP": 15,
@@ -508,7 +507,7 @@
       "DamageType": 1
     },
     {
-      "$id": "48",
+      "$id": "47",
       "Name": "Flame Burst",
       "Description": "The user attacks the target with a bursting flame. The bursting flame damages Pokémon next to the target as well.",
       "PP": 15,
@@ -519,7 +518,7 @@
       "DamageType": 1
     },
     {
-      "$id": "49",
+      "$id": "48",
       "Name": "Flame Charge",
       "Description": "The user cloaks itself with flame and attacks. Building up more power, it raises the user's Speed stat.",
       "PP": 20,
@@ -530,7 +529,7 @@
       "DamageType": 0
     },
     {
-      "$id": "50",
+      "$id": "49",
       "Name": "Flamethrower",
       "Description": "The target is scorched with an intense blast of fire. It may also leave the target with a burn.",
       "PP": 15,
@@ -541,7 +540,7 @@
       "DamageType": 1
     },
     {
-      "$id": "51",
+      "$id": "50",
       "Name": "Flare Blitz",
       "Description": "The user cloaks itself in fire and charges at the target. The user sustains serious damage and may leave the target burned.",
       "PP": 15,
@@ -552,7 +551,7 @@
       "DamageType": 0
     },
     {
-      "$id": "52",
+      "$id": "51",
       "Name": "Flash",
       "Description": "The user flashes a bright light that cuts the target's accuracy. It can also be used to illuminate caves.",
       "PP": 20,
@@ -563,7 +562,7 @@
       "DamageType": 2
     },
     {
-      "$id": "53",
+      "$id": "52",
       "Name": "Flash Cannon",
       "Description": "The user gathers all its light energy and releases it at once. It may also lower the target's Sp. Def stat.",
       "PP": 10,
@@ -574,7 +573,7 @@
       "DamageType": 1
     },
     {
-      "$id": "54",
+      "$id": "53",
       "Name": "Fling",
       "Description": "The user flings its held item at the target to attack. Its power and effects depend on the item.",
       "PP": 10,
@@ -585,7 +584,7 @@
       "DamageType": 0
     },
     {
-      "$id": "55",
+      "$id": "54",
       "Name": "Fly",
       "Description": "The user soars, then strikes its target on the second turn. It can also be used for flying to any familiar town.",
       "PP": 15,
@@ -596,7 +595,7 @@
       "DamageType": 0
     },
     {
-      "$id": "56",
+      "$id": "55",
       "Name": "Focus Blast",
       "Description": "The user heightens its mental focus and unleashes its power. It may also lower the target's Sp. Def.",
       "PP": 5,
@@ -607,7 +606,7 @@
       "DamageType": 1
     },
     {
-      "$id": "57",
+      "$id": "56",
       "Name": "Freeze-Dry",
       "Description": "The user rapidly cools the target. This may also leave the target frozen. This move is super effective on Water types.",
       "PP": 20,
@@ -618,7 +617,7 @@
       "DamageType": 1
     },
     {
-      "$id": "58",
+      "$id": "57",
       "Name": "Frost Breath",
       "Description": "The user blows a cold breath on the target. This attack always results in a critical hit.",
       "PP": 10,
@@ -629,7 +628,7 @@
       "DamageType": 1
     },
     {
-      "$id": "59",
+      "$id": "58",
       "Name": "Frustration",
       "Description": "A full-power attack that grows more powerful the less the user likes its Trainer.",
       "PP": 20,
@@ -640,7 +639,7 @@
       "DamageType": 0
     },
     {
-      "$id": "60",
+      "$id": "59",
       "Name": "Future Sight",
       "Description": "Two turns after this move is used, a hunk of psychic energy attacks the target.",
       "PP": 10,
@@ -651,7 +650,7 @@
       "DamageType": 1
     },
     {
-      "$id": "61",
+      "$id": "60",
       "Name": "Giga Impact",
       "Description": "The user charges at the target using every bit of its power. The user must rest on the next turn.",
       "PP": 5,
@@ -662,7 +661,7 @@
       "DamageType": 0
     },
     {
-      "$id": "62",
+      "$id": "61",
       "Name": "Grass Knot",
       "Description": "The user snares the target with grass and trips it. The heavier the target, the greater the damage.",
       "PP": 20,
@@ -673,7 +672,7 @@
       "DamageType": 1
     },
     {
-      "$id": "63",
+      "$id": "62",
       "Name": "Growl",
       "Description": "The user growls in an endearing way, making the opposing team less wary. The foes' Attack stats are lowered.",
       "PP": 40,
@@ -684,7 +683,7 @@
       "DamageType": 2
     },
     {
-      "$id": "64",
+      "$id": "63",
       "Name": "Growth",
       "Description": "The user's body grows all at once, raising the Attack and Sp. Atk stats.",
       "PP": 20,
@@ -695,7 +694,7 @@
       "DamageType": 2
     },
     {
-      "$id": "65",
+      "$id": "64",
       "Name": "Guard Swap",
       "Description": "The user employs its psychic power to switch changes to its Defense and Sp. Def with the target.",
       "PP": 10,
@@ -706,7 +705,7 @@
       "DamageType": 2
     },
     {
-      "$id": "66",
+      "$id": "65",
       "Name": "Gust",
       "Description": "A gust of wind is whipped up by wings and launched at the target to inflict damage.",
       "PP": 35,
@@ -717,7 +716,7 @@
       "DamageType": 1
     },
     {
-      "$id": "67",
+      "$id": "66",
       "Name": "Gyro Ball",
       "Description": "The user tackles the target with a high-speed spin. The slower the user, the greater the damage.",
       "PP": 5,
@@ -728,7 +727,7 @@
       "DamageType": 0
     },
     {
-      "$id": "68",
+      "$id": "67",
       "Name": "Hail",
       "Description": "The user summons a hailstorm lasting five turns. It damages all Pokémon except the Ice type.",
       "PP": 10,
@@ -739,7 +738,7 @@
       "DamageType": 2
     },
     {
-      "$id": "69",
+      "$id": "68",
       "Name": "Heat Wave",
       "Description": "The user attacks by exhaling hot breath on the opposing team. It may also leave targets with a burn.",
       "PP": 10,
@@ -750,7 +749,7 @@
       "DamageType": 1
     },
     {
-      "$id": "70",
+      "$id": "69",
       "Name": "Hidden Power",
       "Description": "A unique attack that varies in type depending on the Pokémon using it.",
       "PP": 15,
@@ -761,7 +760,7 @@
       "DamageType": 1
     },
     {
-      "$id": "71",
+      "$id": "70",
       "Name": "Hone Claws",
       "Description": "The user sharpens its claws to boost its Attack stat and accuracy.",
       "PP": 15,
@@ -772,7 +771,7 @@
       "DamageType": 2
     },
     {
-      "$id": "72",
+      "$id": "71",
       "Name": "Hurricane",
       "Description": "The user attacks by wrapping its opponent in a fierce wind that flies up into the sky. It may also confuse the target.",
       "PP": 10,
@@ -783,7 +782,7 @@
       "DamageType": 1
     },
     {
-      "$id": "73",
+      "$id": "72",
       "Name": "Hyper Beam",
       "Description": "The target is attacked with a powerful beam. The user must rest on the next turn to regain its energy.",
       "PP": 5,
@@ -794,7 +793,7 @@
       "DamageType": 1
     },
     {
-      "$id": "74",
+      "$id": "73",
       "Name": "Ice Beam",
       "Description": "The target is struck with an icy-cold beam of energy. It may also freeze the target solid.",
       "PP": 10,
@@ -805,7 +804,7 @@
       "DamageType": 1
     },
     {
-      "$id": "75",
+      "$id": "74",
       "Name": "Ice Shard",
       "Description": "The user flash freezes chunks of ice and hurls them at the target. This move always goes first.",
       "PP": 30,
@@ -816,7 +815,7 @@
       "DamageType": 0
     },
     {
-      "$id": "76",
+      "$id": "75",
       "Name": "Incinerate",
       "Description": "The user attacks opposing Pokemon with fire. If a Pokemon is holding a certain item, such as a berry, the item becomes burned up and unusable",
       "PP": 15,
@@ -827,7 +826,7 @@
       "DamageType": 1
     },
     {
-      "$id": "77",
+      "$id": "76",
       "Name": "Inferno",
       "Description": "The user attacks by engulfing the target in an intense fire. It leaves the target with a burn.",
       "PP": 5,
@@ -838,7 +837,7 @@
       "DamageType": 1
     },
     {
-      "$id": "78",
+      "$id": "77",
       "Name": "Infestation",
       "Description": "The target is infested and attacked for four to five turns. The target can't flee during this time.",
       "PP": 20,
@@ -849,7 +848,7 @@
       "DamageType": 1
     },
     {
-      "$id": "79",
+      "$id": "78",
       "Name": "Leech Seed",
       "Description": "A seed is planted on the target. It steals some HP from the target every turn.",
       "PP": 10,
@@ -860,7 +859,7 @@
       "DamageType": 2
     },
     {
-      "$id": "80",
+      "$id": "79",
       "Name": "Light Screen",
       "Description": "A wondrous wall of light is put up to suppress damage from special attacks for five turns.",
       "PP": 30,
@@ -871,7 +870,7 @@
       "DamageType": 2
     },
     {
-      "$id": "81",
+      "$id": "80",
       "Name": "Low Sweep",
       "Description": "The user attacks the target's legs swiftly, reducing the target's Speed stat.",
       "PP": 20,
@@ -882,7 +881,7 @@
       "DamageType": 0
     },
     {
-      "$id": "82",
+      "$id": "81",
       "Name": "Me First",
       "Description": "The user tries to cut ahead of the target to steal and use the target's intended move with greater power.",
       "PP": 20,
@@ -893,7 +892,7 @@
       "DamageType": 2
     },
     {
-      "$id": "83",
+      "$id": "82",
       "Name": "Mega Punch",
       "Description": "The target is slugged by a punch thrown with muscle-packed power.",
       "PP": 20,
@@ -904,7 +903,7 @@
       "DamageType": 0
     },
     {
-      "$id": "84",
+      "$id": "83",
       "Name": "Metronome",
       "Description": "The user waggles a finger and stimulates its brain into randomly using nearly any move.",
       "PP": 10,
@@ -915,7 +914,7 @@
       "DamageType": 2
     },
     {
-      "$id": "85",
+      "$id": "84",
       "Name": "Mind Reader",
       "Description": "The user senses the target's movements with its mind to ensure its next attack does not miss the target.",
       "PP": 5,
@@ -926,7 +925,7 @@
       "DamageType": 2
     },
     {
-      "$id": "86",
+      "$id": "85",
       "Name": "Miracle Eye",
       "Description": "Enables a Dark-type target to be hit by Psychic-type attacks. It also enables an evasive target to be hit.",
       "PP": 40,
@@ -937,7 +936,7 @@
       "DamageType": 2
     },
     {
-      "$id": "87",
+      "$id": "86",
       "Name": "Mist",
       "Description": "The user cloaks its body with a white mist that prevents any of its stats from being cut for five turns.",
       "PP": 30,
@@ -948,7 +947,7 @@
       "DamageType": 2
     },
     {
-      "$id": "88",
+      "$id": "87",
       "Name": "Nasty Plot",
       "Description": "The user stimulates its brain by thinking bad thoughts. It sharply raises the user's Sp. Atk.",
       "PP": 20,
@@ -959,7 +958,7 @@
       "DamageType": 2
     },
     {
-      "$id": "89",
+      "$id": "88",
       "Name": "Nature Power",
       "Description": "An attack that makes use of nature's power. Its effects vary depending on the user's environment.",
       "PP": 20,
@@ -970,7 +969,7 @@
       "DamageType": 2
     },
     {
-      "$id": "90",
+      "$id": "89",
       "Name": "Overheat",
       "Description": "The user attacks the target at full power. The attack's recoil harshly reduces the user's Sp. Atk stat.",
       "PP": 5,
@@ -981,7 +980,7 @@
       "DamageType": 1
     },
     {
-      "$id": "91",
+      "$id": "90",
       "Name": "Payback",
       "Description": "If the user moves after the target, this attack's power will be doubled.",
       "PP": 10,
@@ -992,7 +991,7 @@
       "DamageType": 0
     },
     {
-      "$id": "92",
+      "$id": "91",
       "Name": "Peck",
       "Description": "The target is jabbed with a sharply pointed beak or horn.",
       "PP": 35,
@@ -1003,7 +1002,7 @@
       "DamageType": 0
     },
     {
-      "$id": "93",
+      "$id": "92",
       "Name": "Petal Blizzard",
       "Description": "The user stirs up a violent petal blizzard and attacks everything around it.",
       "PP": 15,
@@ -1014,7 +1013,7 @@
       "DamageType": 0
     },
     {
-      "$id": "94",
+      "$id": "93",
       "Name": "Petal Dance",
       "Description": "The user attacks the target by scattering petals for two to three turns. The user then becomes confused.",
       "PP": 10,
@@ -1025,7 +1024,7 @@
       "DamageType": 1
     },
     {
-      "$id": "95",
+      "$id": "94",
       "Name": "Pluck",
       "Description": "The user pecks the target. If the target is holding a Berry, the user eats it and gains its effect.",
       "PP": 20,
@@ -1036,7 +1035,7 @@
       "DamageType": 0
     },
     {
-      "$id": "96",
+      "$id": "95",
       "Name": "Poison Jab",
       "Description": "The target is stabbed with a tentacle or arm steeped in poison. It may also poison the target.",
       "PP": 20,
@@ -1047,7 +1046,7 @@
       "DamageType": 0
     },
     {
-      "$id": "97",
+      "$id": "96",
       "Name": "Poison Powder",
       "Description": "The user scatters a cloud of poisonous dust on the target. It may poison the target.",
       "PP": 35,
@@ -1058,7 +1057,7 @@
       "DamageType": 2
     },
     {
-      "$id": "98",
+      "$id": "97",
       "Name": "Pound",
       "Description": "The target is physically pounded with a long tail or a foreleg, etc.",
       "PP": 35,
@@ -1069,7 +1068,7 @@
       "DamageType": 0
     },
     {
-      "$id": "99",
+      "$id": "98",
       "Name": "Powder Snow",
       "Description": "The user attacks with a chilling gust of powdery snow. It may also freeze the targets.",
       "PP": 25,
@@ -1080,7 +1079,7 @@
       "DamageType": 1
     },
     {
-      "$id": "100",
+      "$id": "99",
       "Name": "Power Swap",
       "Description": "The user employs its psychic power to switch changes to its Attack and Sp. Atk with the target.",
       "PP": 10,
@@ -1091,7 +1090,7 @@
       "DamageType": 2
     },
     {
-      "$id": "101",
+      "$id": "100",
       "Name": "Power-Up Punch",
       "Description": "Striking opponents over and over makes the user's fists harder. Hitting a target raises the Attack stat.",
       "PP": 20,
@@ -1102,7 +1101,7 @@
       "DamageType": 0
     },
     {
-      "$id": "102",
+      "$id": "101",
       "Name": "Protect",
       "Description": "It enables the user to evade all attacks. Its chance of failing rises if it is used in succession.",
       "PP": 10,
@@ -1113,7 +1112,7 @@
       "DamageType": 2
     },
     {
-      "$id": "103",
+      "$id": "102",
       "Name": "Psych Up",
       "Description": "The user hypnotizes itself into copying any stat change made by the target.",
       "PP": 10,
@@ -1124,7 +1123,7 @@
       "DamageType": 2
     },
     {
-      "$id": "104",
+      "$id": "103",
       "Name": "Psychic",
       "Description": "The target is hit by a strong telekinetic force. It may also reduce the target's Sp. Def stat.",
       "PP": 10,
@@ -1135,7 +1134,7 @@
       "DamageType": 1
     },
     {
-      "$id": "105",
+      "$id": "104",
       "Name": "Psycho Cut",
       "Description": "The user tears at the target with blades formed by psychic power. Critical hits land more easily.",
       "PP": 20,
@@ -1146,7 +1145,7 @@
       "DamageType": 0
     },
     {
-      "$id": "106",
+      "$id": "105",
       "Name": "Psyshock",
       "Description": "The user materializes an odd psychic wave to attack the target. This attack does physical damage.",
       "PP": 10,
@@ -1157,7 +1156,7 @@
       "DamageType": 1
     },
     {
-      "$id": "107",
+      "$id": "106",
       "Name": "Psystrike",
       "Description": "The user materializes an odd psychic wave to attack the target. This attack does physical damage.",
       "PP": 10,
@@ -1168,7 +1167,7 @@
       "DamageType": 1
     },
     {
-      "$id": "108",
+      "$id": "107",
       "Name": "Quash",
       "Description": "The user suppresses the target and makes its move go last.",
       "PP": 15,
@@ -1179,7 +1178,7 @@
       "DamageType": 2
     },
     {
-      "$id": "109",
+      "$id": "108",
       "Name": "Rain Dance",
       "Description": "The user summons a heavy rain that falls for five turns, powering up Water-type moves.",
       "PP": 5,
@@ -1190,7 +1189,7 @@
       "DamageType": 2
     },
     {
-      "$id": "110",
+      "$id": "109",
       "Name": "Razor Leaf",
       "Description": "Sharp-edged leaves are launched to slash at the opposing team. Critical hits land more easily.",
       "PP": 25,
@@ -1201,7 +1200,7 @@
       "DamageType": 0
     },
     {
-      "$id": "111",
+      "$id": "110",
       "Name": "Recover",
       "Description": "Restoring its own cells, the user restores its own HP by half of its max HP.",
       "PP": 10,
@@ -1212,7 +1211,7 @@
       "DamageType": 2
     },
     {
-      "$id": "112",
+      "$id": "111",
       "Name": "Reflect",
       "Description": "A wondrous wall of light is put up to suppress damage from physical attacks for five turns.",
       "PP": 20,
@@ -1223,7 +1222,7 @@
       "DamageType": 2
     },
     {
-      "$id": "113",
+      "$id": "112",
       "Name": "Reflect Type",
       "Description": "The user reflects the target's type, making it the same type as the target.",
       "PP": 15,
@@ -1234,7 +1233,7 @@
       "DamageType": 2
     },
     {
-      "$id": "114",
+      "$id": "113",
       "Name": "Rest",
       "Description": "The user goes to sleep for two turns. It fully restores the user's HP and heals any status problem.",
       "PP": 10,
@@ -1245,7 +1244,7 @@
       "DamageType": 2
     },
     {
-      "$id": "115",
+      "$id": "114",
       "Name": "Retaliate",
       "Description": "The user gets revenge for a fainted ally. If an ally fainted in the previous turn, this attack's damage increases.",
       "PP": 5,
@@ -1256,7 +1255,7 @@
       "DamageType": 0
     },
     {
-      "$id": "116",
+      "$id": "115",
       "Name": "Return",
       "Description": "A full-power attack that grows more powerful the more the user likes its Trainer.",
       "PP": 20,
@@ -1267,7 +1266,7 @@
       "DamageType": 0
     },
     {
-      "$id": "117",
+      "$id": "116",
       "Name": "Roar",
       "Description": "The target is scared off and replaced by another Pokémon in its party. In the wild, the battle ends.",
       "PP": 20,
@@ -1278,7 +1277,7 @@
       "DamageType": 2
     },
     {
-      "$id": "118",
+      "$id": "117",
       "Name": "Rock Polish",
       "Description": "The user polishes its body to reduce drag. It can sharply raise the Speed stat.",
       "PP": 20,
@@ -1289,7 +1288,7 @@
       "DamageType": 2
     },
     {
-      "$id": "119",
+      "$id": "118",
       "Name": "Rock Slide",
       "Description": "Large boulders are hurled at the opposing team to inflict damage. It may also make the targets flinch.",
       "PP": 10,
@@ -1300,7 +1299,7 @@
       "DamageType": 0
     },
     {
-      "$id": "120",
+      "$id": "119",
       "Name": "Rock Smash",
       "Description": "The user attacks with a punch that can shatter a rock. It may also lower the target's Defense stat.",
       "PP": 15,
@@ -1311,7 +1310,7 @@
       "DamageType": 0
     },
     {
-      "$id": "121",
+      "$id": "120",
       "Name": "Rock Tomb",
       "Description": "Boulders are hurled at the target. It also lowers the target's Speed by preventing its movement.",
       "PP": 15,
@@ -1322,7 +1321,7 @@
       "DamageType": 0
     },
     {
-      "$id": "122",
+      "$id": "121",
       "Name": "Roost",
       "Description": "The user lands and rests its body. It restores the user's HP by up to half of its max HP.",
       "PP": 10,
@@ -1333,7 +1332,7 @@
       "DamageType": 2
     },
     {
-      "$id": "123",
+      "$id": "122",
       "Name": "Round",
       "Description": "The user attacks the target with a song. Others can join in the Round and make the attack do greater damage.",
       "PP": 15,
@@ -1344,7 +1343,7 @@
       "DamageType": 1
     },
     {
-      "$id": "124",
+      "$id": "123",
       "Name": "Safeguard",
       "Description": "The user creates a protective field that prevents status problems for five turns.",
       "PP": 25,
@@ -1355,7 +1354,7 @@
       "DamageType": 2
     },
     {
-      "$id": "125",
+      "$id": "124",
       "Name": "Sandstorm",
       "Description": "A five-turn sandstorm is summoned to hurt all combatants except the Rock, Ground, and Steel types.",
       "PP": 10,
@@ -1366,7 +1365,7 @@
       "DamageType": 2
     },
     {
-      "$id": "126",
+      "$id": "125",
       "Name": "Scald",
       "Description": "The user shoots boiling hot water at its target. It may also leave the target with a burn.",
       "PP": 15,
@@ -1377,7 +1376,7 @@
       "DamageType": 1
     },
     {
-      "$id": "127",
+      "$id": "126",
       "Name": "Scary Face",
       "Description": "The user frightens the target with a scary face to harshly reduce its Speed stat.",
       "PP": 10,
@@ -1388,7 +1387,7 @@
       "DamageType": 2
     },
     {
-      "$id": "128",
+      "$id": "127",
       "Name": "Scratch",
       "Description": "Hard, pointed, and sharp claws rake the target to inflict damage.",
       "PP": 35,
@@ -1399,7 +1398,7 @@
       "DamageType": 0
     },
     {
-      "$id": "129",
+      "$id": "128",
       "Name": "Secret Power",
       "Description": "The user attacks the target with a secret power. Its added effects vary depending on the user's environment.",
       "PP": 20,
@@ -1410,7 +1409,7 @@
       "DamageType": 0
     },
     {
-      "$id": "130",
+      "$id": "129",
       "Name": "Seed Bomb",
       "Description": "The user slams a barrage of hard-shelled seeds down on the target from above.",
       "PP": 15,
@@ -1421,7 +1420,7 @@
       "DamageType": 0
     },
     {
-      "$id": "131",
+      "$id": "130",
       "Name": "Shadow Ball",
       "Description": "The user hurls a shadowy blob at the target. It may also lower the target's Sp. Def stat.",
       "PP": 15,
@@ -1432,7 +1431,7 @@
       "DamageType": 1
     },
     {
-      "$id": "132",
+      "$id": "131",
       "Name": "Shadow Claw",
       "Description": "The user slashes with a sharp claw made from shadows. Critical hits land more easily.",
       "PP": 15,
@@ -1443,7 +1442,7 @@
       "DamageType": 0
     },
     {
-      "$id": "133",
+      "$id": "132",
       "Name": "Sheer Cold",
       "Description": "The target is attacked with a blast of absolute-zero cold. The target instantly faints if it hits.",
       "PP": 5,
@@ -1454,7 +1453,7 @@
       "DamageType": 1
     },
     {
-      "$id": "134",
+      "$id": "133",
       "Name": "Sky Attack",
       "Description": "A second-turn attack move where critical hits land more easily. It may also make the target flinch.",
       "PP": 5,
@@ -1465,7 +1464,7 @@
       "DamageType": 0
     },
     {
-      "$id": "135",
+      "$id": "134",
       "Name": "Sky Drop",
       "Description": "The user takes the target into the sky, then drops it during the next turn. The target cannot attack while in the sky.",
       "PP": 10,
@@ -1476,7 +1475,7 @@
       "DamageType": 0
     },
     {
-      "$id": "136",
+      "$id": "135",
       "Name": "Slash",
       "Description": "The target is attacked with a slash of claws or blades. Critical hits land more easily.",
       "PP": 20,
@@ -1487,7 +1486,7 @@
       "DamageType": 0
     },
     {
-      "$id": "137",
+      "$id": "136",
       "Name": "Sleep Powder",
       "Description": "The user scatters a big cloud of sleep-inducing dust around the target.",
       "PP": 15,
@@ -1498,7 +1497,7 @@
       "DamageType": 2
     },
     {
-      "$id": "138",
+      "$id": "137",
       "Name": "Sleep Talk",
       "Description": "While it is asleep, the user randomly uses one of the moves it knows.",
       "PP": 10,
@@ -1509,7 +1508,7 @@
       "DamageType": 2
     },
     {
-      "$id": "139",
+      "$id": "138",
       "Name": "Sludge Bomb",
       "Description": "Unsanitary sludge is hurled at the target. It may also poison the target.",
       "PP": 10,
@@ -1520,7 +1519,7 @@
       "DamageType": 1
     },
     {
-      "$id": "140",
+      "$id": "139",
       "Name": "Sludge Wave",
       "Description": "It swamps the area around the user with a giant sludge wave. It may also poison those hit.",
       "PP": 10,
@@ -1531,7 +1530,7 @@
       "DamageType": 1
     },
     {
-      "$id": "141",
+      "$id": "140",
       "Name": "Smack Down",
       "Description": "The user throws a stone or projectile to attack an opponent. A flying Pokémon will fall to the ground when hit.",
       "PP": 15,
@@ -1542,7 +1541,7 @@
       "DamageType": 0
     },
     {
-      "$id": "142",
+      "$id": "141",
       "Name": "Smokescreen",
       "Description": "The user releases an obscuring cloud of smoke or ink. It reduces the target's accuracy.",
       "PP": 20,
@@ -1553,7 +1552,7 @@
       "DamageType": 2
     },
     {
-      "$id": "143",
+      "$id": "142",
       "Name": "Snarl",
       "Description": "The user yells as if it is ranting about something, making the target's Sp. Atk stat decrease.",
       "PP": 15,
@@ -1564,7 +1563,7 @@
       "DamageType": 1
     },
     {
-      "$id": "144",
+      "$id": "143",
       "Name": "Solar Beam",
       "Description": "A two-turn attack. The user gathers light, then blasts a bundled beam on the second turn.",
       "PP": 10,
@@ -1575,7 +1574,7 @@
       "DamageType": 1
     },
     {
-      "$id": "145",
+      "$id": "144",
       "Name": "Steel Wing",
       "Description": "The target is hit with wings of steel. It may also raise the user's Defense stat.",
       "PP": 25,
@@ -1586,7 +1585,7 @@
       "DamageType": 0
     },
     {
-      "$id": "146",
+      "$id": "145",
       "Name": "Stone Edge",
       "Description": "The user stabs the foe with sharpened stones from below. It has a high critical-hit ratio.",
       "PP": 5,
@@ -1597,7 +1596,7 @@
       "DamageType": 0
     },
     {
-      "$id": "147",
+      "$id": "146",
       "Name": "Strength",
       "Description": "The target is slugged with a punch thrown at maximum power. It can also be used to move heavy boulders.",
       "PP": 15,
@@ -1608,7 +1607,7 @@
       "DamageType": 0
     },
     {
-      "$id": "148",
+      "$id": "147",
       "Name": "Struggle Bug",
       "Description": "While resisting, the user attacks the opposing Pokémon. The targets' Sp. Atk stat is reduced.",
       "PP": 20,
@@ -1619,7 +1618,7 @@
       "DamageType": 1
     },
     {
-      "$id": "149",
+      "$id": "148",
       "Name": "Substitute",
       "Description": "The user makes a copy of itself using some of its HP. The copy serves as the user's decoy.",
       "PP": 10,
@@ -1630,7 +1629,7 @@
       "DamageType": 2
     },
     {
-      "$id": "150",
+      "$id": "149",
       "Name": "Sunny Day",
       "Description": "The user intensifies the sun for five turns, powering up Fire-type moves.",
       "PP": 5,
@@ -1641,7 +1640,7 @@
       "DamageType": 2
     },
     {
-      "$id": "151",
+      "$id": "150",
       "Name": "Surf",
       "Description": "It swamps the area around the user with a giant wave. It can also be used for crossing water.",
       "PP": 15,
@@ -1652,7 +1651,7 @@
       "DamageType": 1
     },
     {
-      "$id": "152",
+      "$id": "151",
       "Name": "Swagger",
       "Description": "The user enrages and confuses the target. However, it also sharply raises the target's Attack stat.",
       "PP": 15,
@@ -1663,7 +1662,7 @@
       "DamageType": 2
     },
     {
-      "$id": "153",
+      "$id": "152",
       "Name": "Sweet Scent",
       "Description": "A sweet scent that harshly lowers the opposing team's evasiveness. It also lures wild Pokémon if used in grass, etc.",
       "PP": 20,
@@ -1674,7 +1673,7 @@
       "DamageType": 2
     },
     {
-      "$id": "154",
+      "$id": "153",
       "Name": "Swift",
       "Description": "Star-shaped rays are shot at the opposing team. This attack never misses.",
       "PP": 20,
@@ -1685,7 +1684,7 @@
       "DamageType": 1
     },
     {
-      "$id": "155",
+      "$id": "154",
       "Name": "Swords Dance",
       "Description": "A frenetic dance to uplift the fighting spirit. It sharply raises the user's Attack stat.",
       "PP": 20,
@@ -1696,7 +1695,7 @@
       "DamageType": 2
     },
     {
-      "$id": "156",
+      "$id": "155",
       "Name": "Synthesis",
       "Description": "The user restores its own HP. The amount of HP regained varies with the weather.",
       "PP": 5,
@@ -1707,7 +1706,7 @@
       "DamageType": 2
     },
     {
-      "$id": "157",
+      "$id": "156",
       "Name": "Tackle",
       "Description": "A physical attack in which the user charges and slams into the target with its whole body.",
       "PP": 35,
@@ -1718,7 +1717,7 @@
       "DamageType": 0
     },
     {
-      "$id": "158",
+      "$id": "157",
       "Name": "Tailwind",
       "Description": "The user whips up a turbulent whirlwind that ups the Speed of all party Pokémon for four turns.",
       "PP": 15,
@@ -1729,7 +1728,7 @@
       "DamageType": 2
     },
     {
-      "$id": "159",
+      "$id": "158",
       "Name": "Take Down",
       "Description": "A reckless, full-body charge attack for slamming into the target. It also damages the user a little.",
       "PP": 20,
@@ -1740,7 +1739,7 @@
       "DamageType": 0
     },
     {
-      "$id": "160",
+      "$id": "159",
       "Name": "Taunt",
       "Description": "The target is taunted into a rage that allows it to use only attack moves for three turns.",
       "PP": 20,
@@ -1751,7 +1750,7 @@
       "DamageType": 2
     },
     {
-      "$id": "161",
+      "$id": "160",
       "Name": "Thief",
       "Description": "The user attacks and steals the target's held item simultaneously. It can't steal if the user holds an item.",
       "PP": 25,
@@ -1762,7 +1761,7 @@
       "DamageType": 0
     },
     {
-      "$id": "162",
+      "$id": "161",
       "Name": "Thunder",
       "Description": "A wicked thunderbolt is dropped on the target to inflict damage. It may also leave the target with paralysis.",
       "PP": 10,
@@ -1773,7 +1772,7 @@
       "DamageType": 1
     },
     {
-      "$id": "163",
+      "$id": "162",
       "Name": "Thunder Shock",
       "Description": "A jolt of electricity is hurled at the target to inflict damage. It may also leave the target with paralysis.",
       "PP": 30,
@@ -1784,7 +1783,7 @@
       "DamageType": 1
     },
     {
-      "$id": "164",
+      "$id": "163",
       "Name": "Thunder Wave",
       "Description": "A weak electric charge is launched at the target. It causes paralysis if it hits.",
       "PP": 20,
@@ -1795,7 +1794,7 @@
       "DamageType": 2
     },
     {
-      "$id": "165",
+      "$id": "164",
       "Name": "Thunderbolt",
       "Description": "A strong electric blast is loosed at the target. It may also leave the target with paralysis.",
       "PP": 15,
@@ -1806,7 +1805,7 @@
       "DamageType": 1
     },
     {
-      "$id": "166",
+      "$id": "165",
       "Name": "Torment",
       "Description": "The user torments and enrages the target, making it incapable of using the same move twice in a row.",
       "PP": 15,
@@ -1817,7 +1816,7 @@
       "DamageType": 2
     },
     {
-      "$id": "167",
+      "$id": "166",
       "Name": "Toxic",
       "Description": "A move that leaves the target badly poisoned. Its poison damage worsens every turn.",
       "PP": 10,
@@ -1828,7 +1827,7 @@
       "DamageType": 2
     },
     {
-      "$id": "168",
+      "$id": "167",
       "Name": "Transform",
       "Description": "The user transforms into a copy of the target right down to having the same move set.",
       "PP": 10,
@@ -1839,7 +1838,7 @@
       "DamageType": 2
     },
     {
-      "$id": "169",
+      "$id": "168",
       "Name": "Trick Room",
       "Description": "The user creates a bizarre area in which slower Pokémon get to move first for five turns.",
       "PP": 5,
@@ -1850,7 +1849,7 @@
       "DamageType": 2
     },
     {
-      "$id": "170",
+      "$id": "169",
       "Name": "U-turn",
       "Description": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
       "PP": 20,
@@ -1861,7 +1860,7 @@
       "DamageType": 0
     },
     {
-      "$id": "171",
+      "$id": "170",
       "Name": "Venoshock",
       "Description": "The user drenches the target in a special poisonous liquid. Its power is doubled if the target is poisoned.",
       "PP": 10,
@@ -1872,7 +1871,7 @@
       "DamageType": 1
     },
     {
-      "$id": "172",
+      "$id": "171",
       "Name": "Vine Whip",
       "Description": "The target is struck with slender, whiplike vines to inflict damage.",
       "PP": 25,
@@ -1883,7 +1882,7 @@
       "DamageType": 0
     },
     {
-      "$id": "173",
+      "$id": "172",
       "Name": "Volt Switch",
       "Description": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
       "PP": 20,
@@ -1894,7 +1893,7 @@
       "DamageType": 1
     },
     {
-      "$id": "174",
+      "$id": "173",
       "Name": "Waterfall",
       "Description": "The user charges at the target and may make it flinch. It can also be used to climb a waterfall.",
       "PP": 15,
@@ -1905,7 +1904,7 @@
       "DamageType": 0
     },
     {
-      "$id": "175",
+      "$id": "174",
       "Name": "Wild Charge",
       "Description": "The user shrouds itself in electricity and smashes into its target. It also damages the user a little.",
       "PP": 15,
@@ -1916,7 +1915,7 @@
       "DamageType": 0
     },
     {
-      "$id": "176",
+      "$id": "175",
       "Name": "Will-O-Wisp",
       "Description": "The user shoots a sinister, bluish-white flame at the target to inflict a burn.",
       "PP": 15,
@@ -1927,7 +1926,7 @@
       "DamageType": 2
     },
     {
-      "$id": "177",
+      "$id": "176",
       "Name": "Wing Attack",
       "Description": "The target is struck with large, imposing wings spread wide to inflict damage.",
       "PP": 35,
@@ -1938,7 +1937,7 @@
       "DamageType": 0
     },
     {
-      "$id": "178",
+      "$id": "177",
       "Name": "Worry Seed",
       "Description": "A seed that causes worry is planted on the target. It prevents sleep by making its Ability Insomnia.",
       "PP": 10,
@@ -1949,7 +1948,7 @@
       "DamageType": 2
     },
     {
-      "$id": "179",
+      "$id": "178",
       "Name": "X-Scissor",
       "Description": "The user slashes at the target by crossing its scythes or claws as if they were a pair of scissors.",
       "PP": 15,
@@ -1960,7 +1959,7 @@
       "DamageType": 0
     },
     {
-      "$id": "180",
+      "$id": "179",
       "Name": "Zap Cannon",
       "Description": "The user fires an electric blast like a cannon to inflict damage and cause paralysis.",
       "PP": 5,
@@ -1973,7 +1972,7 @@
   ],
   "PokemonList": [
     {
-      "$id": "181",
+      "$id": "180",
       "Name": "Bulbasaur",
       "ID": 1,
       "Type1": 10,
@@ -1990,7 +1989,7 @@
       "EvolvesFrom": null,
       "EvolvesTo": [
         {
-          "$id": "182",
+          "$id": "181",
           "Name": "Ivysaur",
           "ID": 2,
           "Type1": 10,
@@ -2005,11 +2004,11 @@
           "BaseSpecialDefense": 80,
           "BaseSpeed": 60,
           "EvolvesFrom": {
-            "$ref": "181"
+            "$ref": "180"
           },
           "EvolvesTo": [
             {
-              "$id": "183",
+              "$id": "182",
               "Name": "Venusaur",
               "ID": 3,
               "Type1": 10,
@@ -2024,141 +2023,122 @@
               "BaseSpecialDefense": 100,
               "BaseSpeed": 80,
               "EvolvesFrom": {
-                "$ref": "182"
+                "$ref": "181"
               },
               "EvolvesTo": [],
               "LevelUpMoves": [
                 {
-                  "$id": "184",
                   "Item1": 1,
-                  "Item2": {
-                    "$ref": "157"
-                  }
-                },
-                {
-                  "$id": "185",
-                  "Item1": 1,
-                  "Item2": {
-                    "$ref": "63"
-                  }
-                },
-                {
-                  "$id": "186",
-                  "Item1": 1,
-                  "Item2": {
-                    "$ref": "79"
-                  }
-                },
-                {
-                  "$id": "187",
-                  "Item1": 1,
-                  "Item2": {
-                    "$ref": "172"
-                  }
-                },
-                {
-                  "$id": "188",
-                  "Item1": 3,
-                  "Item2": {
-                    "$ref": "63"
-                  }
-                },
-                {
-                  "$id": "189",
-                  "Item1": 7,
-                  "Item2": {
-                    "$ref": "79"
-                  }
-                },
-                {
-                  "$id": "190",
-                  "Item1": 9,
-                  "Item2": {
-                    "$ref": "172"
-                  }
-                },
-                {
-                  "$id": "191",
-                  "Item1": 13,
-                  "Item2": {
-                    "$ref": "97"
-                  }
-                },
-                {
-                  "$id": "192",
-                  "Item1": 13,
-                  "Item2": {
-                    "$ref": "137"
-                  }
-                },
-                {
-                  "$id": "193",
-                  "Item1": 15,
-                  "Item2": {
-                    "$ref": "159"
-                  }
-                },
-                {
-                  "$id": "194",
-                  "Item1": 20,
-                  "Item2": {
-                    "$ref": "110"
-                  }
-                },
-                {
-                  "$id": "195",
-                  "Item1": 23,
-                  "Item2": {
-                    "$ref": "153"
-                  }
-                },
-                {
-                  "$id": "196",
-                  "Item1": 28,
-                  "Item2": {
-                    "$ref": "64"
-                  }
-                },
-                {
-                  "$id": "197",
-                  "Item1": 31,
-                  "Item2": {
-                    "$ref": "30"
-                  }
-                },
-                {
-                  "$id": "198",
-                  "Item1": 32,
-                  "Item2": {
-                    "$ref": "94"
-                  }
-                },
-                {
-                  "$id": "199",
-                  "Item1": 39,
-                  "Item2": {
-                    "$ref": "178"
-                  }
-                },
-                {
-                  "$id": "200",
-                  "Item1": 45,
                   "Item2": {
                     "$ref": "156"
                   }
                 },
                 {
-                  "$id": "201",
-                  "Item1": 50,
+                  "Item1": 1,
+                  "Item2": {
+                    "$ref": "62"
+                  }
+                },
+                {
+                  "Item1": 1,
+                  "Item2": {
+                    "$ref": "78"
+                  }
+                },
+                {
+                  "Item1": 1,
+                  "Item2": {
+                    "$ref": "171"
+                  }
+                },
+                {
+                  "Item1": 3,
+                  "Item2": {
+                    "$ref": "62"
+                  }
+                },
+                {
+                  "Item1": 7,
+                  "Item2": {
+                    "$ref": "78"
+                  }
+                },
+                {
+                  "Item1": 9,
+                  "Item2": {
+                    "$ref": "171"
+                  }
+                },
+                {
+                  "Item1": 13,
+                  "Item2": {
+                    "$ref": "96"
+                  }
+                },
+                {
+                  "Item1": 13,
+                  "Item2": {
+                    "$ref": "136"
+                  }
+                },
+                {
+                  "Item1": 15,
+                  "Item2": {
+                    "$ref": "158"
+                  }
+                },
+                {
+                  "Item1": 20,
+                  "Item2": {
+                    "$ref": "109"
+                  }
+                },
+                {
+                  "Item1": 23,
+                  "Item2": {
+                    "$ref": "152"
+                  }
+                },
+                {
+                  "Item1": 28,
+                  "Item2": {
+                    "$ref": "63"
+                  }
+                },
+                {
+                  "Item1": 31,
+                  "Item2": {
+                    "$ref": "29"
+                  }
+                },
+                {
+                  "Item1": 32,
                   "Item2": {
                     "$ref": "93"
                   }
                 },
                 {
-                  "$id": "202",
+                  "Item1": 39,
+                  "Item2": {
+                    "$ref": "177"
+                  }
+                },
+                {
+                  "Item1": 45,
+                  "Item2": {
+                    "$ref": "155"
+                  }
+                },
+                {
+                  "Item1": 50,
+                  "Item2": {
+                    "$ref": "92"
+                  }
+                },
+                {
                   "Item1": 53,
                   "Item2": {
-                    "$ref": "144"
+                    "$ref": "143"
                   }
                 }
               ],
@@ -2205,115 +2185,99 @@
           ],
           "LevelUpMoves": [
             {
-              "$id": "203",
               "Item1": 1,
-              "Item2": {
-                "$ref": "157"
-              }
-            },
-            {
-              "$id": "204",
-              "Item1": 1,
-              "Item2": {
-                "$ref": "63"
-              }
-            },
-            {
-              "$id": "205",
-              "Item1": 1,
-              "Item2": {
-                "$ref": "79"
-              }
-            },
-            {
-              "$id": "206",
-              "Item1": 3,
-              "Item2": {
-                "$ref": "63"
-              }
-            },
-            {
-              "$id": "207",
-              "Item1": 7,
-              "Item2": {
-                "$ref": "79"
-              }
-            },
-            {
-              "$id": "208",
-              "Item1": 9,
-              "Item2": {
-                "$ref": "172"
-              }
-            },
-            {
-              "$id": "209",
-              "Item1": 13,
-              "Item2": {
-                "$ref": "97"
-              }
-            },
-            {
-              "$id": "210",
-              "Item1": 13,
-              "Item2": {
-                "$ref": "137"
-              }
-            },
-            {
-              "$id": "211",
-              "Item1": 15,
-              "Item2": {
-                "$ref": "159"
-              }
-            },
-            {
-              "$id": "212",
-              "Item1": 20,
-              "Item2": {
-                "$ref": "110"
-              }
-            },
-            {
-              "$id": "213",
-              "Item1": 23,
-              "Item2": {
-                "$ref": "153"
-              }
-            },
-            {
-              "$id": "214",
-              "Item1": 28,
-              "Item2": {
-                "$ref": "64"
-              }
-            },
-            {
-              "$id": "215",
-              "Item1": 31,
-              "Item2": {
-                "$ref": "30"
-              }
-            },
-            {
-              "$id": "216",
-              "Item1": 36,
-              "Item2": {
-                "$ref": "178"
-              }
-            },
-            {
-              "$id": "217",
-              "Item1": 39,
               "Item2": {
                 "$ref": "156"
               }
             },
             {
-              "$id": "218",
+              "Item1": 1,
+              "Item2": {
+                "$ref": "62"
+              }
+            },
+            {
+              "Item1": 1,
+              "Item2": {
+                "$ref": "78"
+              }
+            },
+            {
+              "Item1": 3,
+              "Item2": {
+                "$ref": "62"
+              }
+            },
+            {
+              "Item1": 7,
+              "Item2": {
+                "$ref": "78"
+              }
+            },
+            {
+              "Item1": 9,
+              "Item2": {
+                "$ref": "171"
+              }
+            },
+            {
+              "Item1": 13,
+              "Item2": {
+                "$ref": "96"
+              }
+            },
+            {
+              "Item1": 13,
+              "Item2": {
+                "$ref": "136"
+              }
+            },
+            {
+              "Item1": 15,
+              "Item2": {
+                "$ref": "158"
+              }
+            },
+            {
+              "Item1": 20,
+              "Item2": {
+                "$ref": "109"
+              }
+            },
+            {
+              "Item1": 23,
+              "Item2": {
+                "$ref": "152"
+              }
+            },
+            {
+              "Item1": 28,
+              "Item2": {
+                "$ref": "63"
+              }
+            },
+            {
+              "Item1": 31,
+              "Item2": {
+                "$ref": "29"
+              }
+            },
+            {
+              "Item1": 36,
+              "Item2": {
+                "$ref": "177"
+              }
+            },
+            {
+              "Item1": 39,
+              "Item2": {
+                "$ref": "155"
+              }
+            },
+            {
               "Item1": 44,
               "Item2": {
-                "$ref": "144"
+                "$ref": "143"
               }
             }
           ],
@@ -2355,101 +2319,87 @@
       ],
       "LevelUpMoves": [
         {
-          "$id": "219",
           "Item1": 1,
-          "Item2": {
-            "$ref": "157"
-          }
-        },
-        {
-          "$id": "220",
-          "Item1": 3,
-          "Item2": {
-            "$ref": "63"
-          }
-        },
-        {
-          "$id": "221",
-          "Item1": 7,
-          "Item2": {
-            "$ref": "79"
-          }
-        },
-        {
-          "$id": "222",
-          "Item1": 9,
-          "Item2": {
-            "$ref": "172"
-          }
-        },
-        {
-          "$id": "223",
-          "Item1": 13,
-          "Item2": {
-            "$ref": "97"
-          }
-        },
-        {
-          "$id": "224",
-          "Item1": 13,
-          "Item2": {
-            "$ref": "137"
-          }
-        },
-        {
-          "$id": "225",
-          "Item1": 15,
-          "Item2": {
-            "$ref": "159"
-          }
-        },
-        {
-          "$id": "226",
-          "Item1": 19,
-          "Item2": {
-            "$ref": "110"
-          }
-        },
-        {
-          "$id": "227",
-          "Item1": 21,
-          "Item2": {
-            "$ref": "153"
-          }
-        },
-        {
-          "$id": "228",
-          "Item1": 25,
-          "Item2": {
-            "$ref": "64"
-          }
-        },
-        {
-          "$id": "229",
-          "Item1": 27,
-          "Item2": {
-            "$ref": "30"
-          }
-        },
-        {
-          "$id": "230",
-          "Item1": 31,
-          "Item2": {
-            "$ref": "178"
-          }
-        },
-        {
-          "$id": "231",
-          "Item1": 33,
           "Item2": {
             "$ref": "156"
           }
         },
         {
-          "$id": "232",
+          "Item1": 3,
+          "Item2": {
+            "$ref": "62"
+          }
+        },
+        {
+          "Item1": 7,
+          "Item2": {
+            "$ref": "78"
+          }
+        },
+        {
+          "Item1": 9,
+          "Item2": {
+            "$ref": "171"
+          }
+        },
+        {
+          "Item1": 13,
+          "Item2": {
+            "$ref": "96"
+          }
+        },
+        {
+          "Item1": 13,
+          "Item2": {
+            "$ref": "136"
+          }
+        },
+        {
+          "Item1": 15,
+          "Item2": {
+            "$ref": "158"
+          }
+        },
+        {
+          "Item1": 19,
+          "Item2": {
+            "$ref": "109"
+          }
+        },
+        {
+          "Item1": 21,
+          "Item2": {
+            "$ref": "152"
+          }
+        },
+        {
+          "Item1": 25,
+          "Item2": {
+            "$ref": "63"
+          }
+        },
+        {
+          "Item1": 27,
+          "Item2": {
+            "$ref": "29"
+          }
+        },
+        {
+          "Item1": 31,
+          "Item2": {
+            "$ref": "177"
+          }
+        },
+        {
+          "Item1": 33,
+          "Item2": {
+            "$ref": "155"
+          }
+        },
+        {
           "Item1": 37,
           "Item2": {
-            "$ref": "130"
+            "$ref": "129"
           }
         }
       ],
@@ -2489,13 +2439,13 @@
       ]
     },
     {
+      "$ref": "181"
+    },
+    {
       "$ref": "182"
     },
     {
-      "$ref": "183"
-    },
-    {
-      "$id": "233",
+      "$id": "183",
       "Name": "Charmander",
       "ID": 4,
       "Type1": 7,
@@ -2512,7 +2462,7 @@
       "EvolvesFrom": null,
       "EvolvesTo": [
         {
-          "$id": "234",
+          "$id": "184",
           "Name": "Charmeleon",
           "ID": 5,
           "Type1": 7,
@@ -2527,11 +2477,11 @@
           "BaseSpecialDefense": 65,
           "BaseSpeed": 80,
           "EvolvesFrom": {
-            "$ref": "233"
+            "$ref": "183"
           },
           "EvolvesTo": [
             {
-              "$id": "235",
+              "$id": "185",
               "Name": "Charizard",
               "ID": 6,
               "Type1": 7,
@@ -2546,162 +2496,140 @@
               "BaseSpecialDefense": 85,
               "BaseSpeed": 100,
               "EvolvesFrom": {
-                "$ref": "234"
+                "$ref": "184"
               },
               "EvolvesTo": [],
               "LevelUpMoves": [
                 {
-                  "$id": "236",
                   "Item1": 1,
-                  "Item2": {
-                    "$ref": "51"
-                  }
-                },
-                {
-                  "$id": "237",
-                  "Item1": 1,
-                  "Item2": {
-                    "$ref": "69"
-                  }
-                },
-                {
-                  "$id": "238",
-                  "Item1": 1,
-                  "Item2": {
-                    "$ref": "31"
-                  }
-                },
-                {
-                  "$id": "239",
-                  "Item1": 1,
-                  "Item2": {
-                    "$ref": "132"
-                  }
-                },
-                {
-                  "$id": "240",
-                  "Item1": 1,
-                  "Item2": {
-                    "$ref": "5"
-                  }
-                },
-                {
-                  "$id": "241",
-                  "Item1": 1,
-                  "Item2": {
-                    "$ref": "128"
-                  }
-                },
-                {
-                  "$id": "242",
-                  "Item1": 1,
-                  "Item2": {
-                    "$ref": "63"
-                  }
-                },
-                {
-                  "$id": "243",
-                  "Item1": 1,
-                  "Item2": {
-                    "$ref": "39"
-                  }
-                },
-                {
-                  "$id": "244",
-                  "Item1": 1,
-                  "Item2": {
-                    "$ref": "142"
-                  }
-                },
-                {
-                  "$id": "245",
-                  "Item1": 7,
-                  "Item2": {
-                    "$ref": "39"
-                  }
-                },
-                {
-                  "$id": "246",
-                  "Item1": 10,
-                  "Item2": {
-                    "$ref": "142"
-                  }
-                },
-                {
-                  "$id": "247",
-                  "Item1": 17,
-                  "Item2": {
-                    "$ref": "32"
-                  }
-                },
-                {
-                  "$id": "248",
-                  "Item1": 21,
-                  "Item2": {
-                    "$ref": "127"
-                  }
-                },
-                {
-                  "$id": "249",
-                  "Item1": 28,
-                  "Item2": {
-                    "$ref": "46"
-                  }
-                },
-                {
-                  "$id": "250",
-                  "Item1": 32,
-                  "Item2": {
-                    "$ref": "48"
-                  }
-                },
-                {
-                  "$id": "251",
-                  "Item1": 36,
-                  "Item2": {
-                    "$ref": "177"
-                  }
-                },
-                {
-                  "$id": "252",
-                  "Item1": 41,
-                  "Item2": {
-                    "$ref": "136"
-                  }
-                },
-                {
-                  "$id": "253",
-                  "Item1": 47,
                   "Item2": {
                     "$ref": "50"
                   }
                 },
                 {
-                  "$id": "254",
-                  "Item1": 56,
+                  "Item1": 1,
+                  "Item2": {
+                    "$ref": "68"
+                  }
+                },
+                {
+                  "Item1": 1,
+                  "Item2": {
+                    "$ref": "30"
+                  }
+                },
+                {
+                  "Item1": 1,
+                  "Item2": {
+                    "$ref": "131"
+                  }
+                },
+                {
+                  "Item1": 1,
+                  "Item2": {
+                    "$ref": "4"
+                  }
+                },
+                {
+                  "Item1": 1,
+                  "Item2": {
+                    "$ref": "127"
+                  }
+                },
+                {
+                  "Item1": 1,
+                  "Item2": {
+                    "$ref": "62"
+                  }
+                },
+                {
+                  "Item1": 1,
+                  "Item2": {
+                    "$ref": "38"
+                  }
+                },
+                {
+                  "Item1": 1,
+                  "Item2": {
+                    "$ref": "141"
+                  }
+                },
+                {
+                  "Item1": 7,
+                  "Item2": {
+                    "$ref": "38"
+                  }
+                },
+                {
+                  "Item1": 10,
+                  "Item2": {
+                    "$ref": "141"
+                  }
+                },
+                {
+                  "Item1": 17,
+                  "Item2": {
+                    "$ref": "31"
+                  }
+                },
+                {
+                  "Item1": 21,
+                  "Item2": {
+                    "$ref": "126"
+                  }
+                },
+                {
+                  "Item1": 28,
+                  "Item2": {
+                    "$ref": "45"
+                  }
+                },
+                {
+                  "Item1": 32,
                   "Item2": {
                     "$ref": "47"
                   }
                 },
                 {
-                  "$id": "255",
+                  "Item1": 36,
+                  "Item2": {
+                    "$ref": "176"
+                  }
+                },
+                {
+                  "Item1": 41,
+                  "Item2": {
+                    "$ref": "135"
+                  }
+                },
+                {
+                  "Item1": 47,
+                  "Item2": {
+                    "$ref": "49"
+                  }
+                },
+                {
+                  "Item1": 56,
+                  "Item2": {
+                    "$ref": "46"
+                  }
+                },
+                {
                   "Item1": 62,
                   "Item2": {
-                    "$ref": "77"
+                    "$ref": "76"
                   }
                 },
                 {
-                  "$id": "256",
                   "Item1": 71,
                   "Item2": {
-                    "$ref": "69"
+                    "$ref": "68"
                   }
                 },
                 {
-                  "$id": "257",
                   "Item1": 77,
                   "Item2": {
-                    "$ref": "51"
+                    "$ref": "50"
                   }
                 }
               ],
@@ -2762,94 +2690,81 @@
           ],
           "LevelUpMoves": [
             {
-              "$id": "258",
               "Item1": 1,
-              "Item2": {
-                "$ref": "128"
-              }
-            },
-            {
-              "$id": "259",
-              "Item1": 1,
-              "Item2": {
-                "$ref": "63"
-              }
-            },
-            {
-              "$id": "260",
-              "Item1": 1,
-              "Item2": {
-                "$ref": "39"
-              }
-            },
-            {
-              "$id": "261",
-              "Item1": 7,
-              "Item2": {
-                "$ref": "39"
-              }
-            },
-            {
-              "$id": "262",
-              "Item1": 10,
-              "Item2": {
-                "$ref": "142"
-              }
-            },
-            {
-              "$id": "263",
-              "Item1": 17,
-              "Item2": {
-                "$ref": "32"
-              }
-            },
-            {
-              "$id": "264",
-              "Item1": 21,
               "Item2": {
                 "$ref": "127"
               }
             },
             {
-              "$id": "265",
+              "Item1": 1,
+              "Item2": {
+                "$ref": "62"
+              }
+            },
+            {
+              "Item1": 1,
+              "Item2": {
+                "$ref": "38"
+              }
+            },
+            {
+              "Item1": 7,
+              "Item2": {
+                "$ref": "38"
+              }
+            },
+            {
+              "Item1": 10,
+              "Item2": {
+                "$ref": "141"
+              }
+            },
+            {
+              "Item1": 17,
+              "Item2": {
+                "$ref": "31"
+              }
+            },
+            {
+              "Item1": 21,
+              "Item2": {
+                "$ref": "126"
+              }
+            },
+            {
               "Item1": 28,
               "Item2": {
-                "$ref": "46"
+                "$ref": "45"
               }
             },
             {
-              "$id": "266",
               "Item1": 32,
-              "Item2": {
-                "$ref": "48"
-              }
-            },
-            {
-              "$id": "267",
-              "Item1": 39,
-              "Item2": {
-                "$ref": "136"
-              }
-            },
-            {
-              "$id": "268",
-              "Item1": 43,
-              "Item2": {
-                "$ref": "50"
-              }
-            },
-            {
-              "$id": "269",
-              "Item1": 50,
               "Item2": {
                 "$ref": "47"
               }
             },
             {
-              "$id": "270",
+              "Item1": 39,
+              "Item2": {
+                "$ref": "135"
+              }
+            },
+            {
+              "Item1": 43,
+              "Item2": {
+                "$ref": "49"
+              }
+            },
+            {
+              "Item1": 50,
+              "Item2": {
+                "$ref": "46"
+              }
+            },
+            {
               "Item1": 54,
               "Item2": {
-                "$ref": "77"
+                "$ref": "76"
               }
             }
           ],
@@ -2899,87 +2814,75 @@
       ],
       "LevelUpMoves": [
         {
-          "$id": "271",
           "Item1": 1,
-          "Item2": {
-            "$ref": "128"
-          }
-        },
-        {
-          "$id": "272",
-          "Item1": 1,
-          "Item2": {
-            "$ref": "63"
-          }
-        },
-        {
-          "$id": "273",
-          "Item1": 7,
-          "Item2": {
-            "$ref": "39"
-          }
-        },
-        {
-          "$id": "274",
-          "Item1": 10,
-          "Item2": {
-            "$ref": "142"
-          }
-        },
-        {
-          "$id": "275",
-          "Item1": 16,
-          "Item2": {
-            "$ref": "32"
-          }
-        },
-        {
-          "$id": "276",
-          "Item1": 19,
           "Item2": {
             "$ref": "127"
           }
         },
         {
-          "$id": "277",
+          "Item1": 1,
+          "Item2": {
+            "$ref": "62"
+          }
+        },
+        {
+          "Item1": 7,
+          "Item2": {
+            "$ref": "38"
+          }
+        },
+        {
+          "Item1": 10,
+          "Item2": {
+            "$ref": "141"
+          }
+        },
+        {
+          "Item1": 16,
+          "Item2": {
+            "$ref": "31"
+          }
+        },
+        {
+          "Item1": 19,
+          "Item2": {
+            "$ref": "126"
+          }
+        },
+        {
           "Item1": 25,
           "Item2": {
-            "$ref": "46"
+            "$ref": "45"
           }
         },
         {
-          "$id": "278",
           "Item1": 28,
-          "Item2": {
-            "$ref": "48"
-          }
-        },
-        {
-          "$id": "279",
-          "Item1": 34,
-          "Item2": {
-            "$ref": "136"
-          }
-        },
-        {
-          "$id": "280",
-          "Item1": 37,
-          "Item2": {
-            "$ref": "50"
-          }
-        },
-        {
-          "$id": "281",
-          "Item1": 43,
           "Item2": {
             "$ref": "47"
           }
         },
         {
-          "$id": "282",
+          "Item1": 34,
+          "Item2": {
+            "$ref": "135"
+          }
+        },
+        {
+          "Item1": 37,
+          "Item2": {
+            "$ref": "49"
+          }
+        },
+        {
+          "Item1": 43,
+          "Item2": {
+            "$ref": "46"
+          }
+        },
+        {
           "Item1": 46,
           "Item2": {
-            "$ref": "77"
+            "$ref": "76"
           }
         }
       ],
@@ -3026,13 +2929,13 @@
       ]
     },
     {
-      "$ref": "234"
+      "$ref": "184"
     },
     {
-      "$ref": "235"
+      "$ref": "185"
     },
     {
-      "$id": "283",
+      "$id": "186",
       "Name": "Ditto",
       "ID": 132,
       "Type1": 13,
@@ -3050,10 +2953,9 @@
       "EvolvesTo": [],
       "LevelUpMoves": [
         {
-          "$id": "284",
           "Item1": 1,
           "Item2": {
-            "$ref": "168"
+            "$ref": "167"
           }
         }
       ],
@@ -3061,7 +2963,7 @@
       "LearnableHMs": []
     },
     {
-      "$id": "285",
+      "$id": "187",
       "Name": "Articuno",
       "ID": 144,
       "Type1": 12,
@@ -3079,143 +2981,123 @@
       "EvolvesTo": [],
       "LevelUpMoves": [
         {
-          "$id": "286",
           "Item1": 1,
           "Item2": {
-            "$ref": "122"
+            "$ref": "121"
           }
         },
         {
-          "$id": "287",
           "Item1": 1,
           "Item2": {
-            "$ref": "72"
+            "$ref": "71"
           }
         },
         {
-          "$id": "288",
           "Item1": 1,
           "Item2": {
-            "$ref": "57"
+            "$ref": "56"
           }
         },
         {
-          "$id": "289",
           "Item1": 1,
           "Item2": {
-            "$ref": "158"
+            "$ref": "157"
           }
         },
         {
-          "$id": "290",
           "Item1": 1,
           "Item2": {
-            "$ref": "133"
+            "$ref": "132"
           }
         },
         {
-          "$id": "291",
           "Item1": 1,
           "Item2": {
-            "$ref": "66"
+            "$ref": "65"
           }
         },
         {
-          "$id": "292",
           "Item1": 1,
           "Item2": {
-            "$ref": "99"
+            "$ref": "98"
           }
         },
         {
-          "$id": "293",
           "Item1": 8,
           "Item2": {
-            "$ref": "87"
+            "$ref": "86"
           }
         },
         {
-          "$id": "294",
           "Item1": 15,
-          "Item2": {
-            "$ref": "75"
-          }
-        },
-        {
-          "$id": "295",
-          "Item1": 22,
-          "Item2": {
-            "$ref": "85"
-          }
-        },
-        {
-          "$id": "296",
-          "Item1": 29,
-          "Item2": {
-            "$ref": "7"
-          }
-        },
-        {
-          "$id": "297",
-          "Item1": 36,
-          "Item2": {
-            "$ref": "4"
-          }
-        },
-        {
-          "$id": "298",
-          "Item1": 43,
           "Item2": {
             "$ref": "74"
           }
         },
         {
-          "$id": "299",
+          "Item1": 22,
+          "Item2": {
+            "$ref": "84"
+          }
+        },
+        {
+          "Item1": 29,
+          "Item2": {
+            "$ref": "6"
+          }
+        },
+        {
+          "Item1": 36,
+          "Item2": {
+            "$ref": "3"
+          }
+        },
+        {
+          "Item1": 43,
+          "Item2": {
+            "$ref": "73"
+          }
+        },
+        {
           "Item1": 50,
           "Item2": {
-            "$ref": "112"
+            "$ref": "111"
           }
         },
         {
-          "$id": "300",
           "Item1": 57,
           "Item2": {
-            "$ref": "68"
+            "$ref": "67"
           }
         },
         {
-          "$id": "301",
           "Item1": 64,
           "Item2": {
-            "$ref": "158"
+            "$ref": "157"
           }
         },
         {
-          "$id": "302",
           "Item1": 71,
           "Item2": {
-            "$ref": "12"
+            "$ref": "11"
           }
         },
         {
-          "$id": "303",
           "Item1": 78,
           "Item2": {
-            "$ref": "133"
+            "$ref": "132"
           }
         },
         {
-          "$id": "304",
           "Item1": 85,
           "Item2": {
-            "$ref": "122"
+            "$ref": "121"
           }
         },
         {
-          "$id": "305",
           "Item1": 92,
           "Item2": {
-            "$ref": "72"
+            "$ref": "71"
           }
         }
       ],
@@ -3257,7 +3139,7 @@
       ]
     },
     {
-      "$id": "306",
+      "$id": "188",
       "Name": "Zapdos",
       "ID": 145,
       "Type1": 4,
@@ -3275,129 +3157,111 @@
       "EvolvesTo": [],
       "LevelUpMoves": [
         {
-          "$id": "307",
           "Item1": 1,
           "Item2": {
-            "$ref": "122"
+            "$ref": "121"
           }
         },
         {
-          "$id": "308",
           "Item1": 1,
           "Item2": {
-            "$ref": "180"
+            "$ref": "179"
           }
         },
         {
-          "$id": "309",
           "Item1": 1,
           "Item2": {
-            "$ref": "35"
+            "$ref": "34"
           }
         },
         {
-          "$id": "310",
           "Item1": 1,
           "Item2": {
-            "$ref": "92"
+            "$ref": "91"
           }
         },
         {
-          "$id": "311",
           "Item1": 1,
-          "Item2": {
-            "$ref": "163"
-          }
-        },
-        {
-          "$id": "312",
-          "Item1": 8,
-          "Item2": {
-            "$ref": "164"
-          }
-        },
-        {
-          "$id": "313",
-          "Item1": 15,
-          "Item2": {
-            "$ref": "24"
-          }
-        },
-        {
-          "$id": "314",
-          "Item1": 22,
-          "Item2": {
-            "$ref": "95"
-          }
-        },
-        {
-          "$id": "315",
-          "Item1": 29,
-          "Item2": {
-            "$ref": "7"
-          }
-        },
-        {
-          "$id": "316",
-          "Item1": 36,
-          "Item2": {
-            "$ref": "17"
-          }
-        },
-        {
-          "$id": "317",
-          "Item1": 43,
-          "Item2": {
-            "$ref": "4"
-          }
-        },
-        {
-          "$id": "318",
-          "Item1": 50,
-          "Item2": {
-            "$ref": "27"
-          }
-        },
-        {
-          "$id": "319",
-          "Item1": 57,
-          "Item2": {
-            "$ref": "109"
-          }
-        },
-        {
-          "$id": "320",
-          "Item1": 64,
-          "Item2": {
-            "$ref": "80"
-          }
-        },
-        {
-          "$id": "321",
-          "Item1": 71,
-          "Item2": {
-            "$ref": "35"
-          }
-        },
-        {
-          "$id": "322",
-          "Item1": 78,
           "Item2": {
             "$ref": "162"
           }
         },
         {
-          "$id": "323",
-          "Item1": 85,
+          "Item1": 8,
           "Item2": {
-            "$ref": "122"
+            "$ref": "163"
           }
         },
         {
-          "$id": "324",
+          "Item1": 15,
+          "Item2": {
+            "$ref": "23"
+          }
+        },
+        {
+          "Item1": 22,
+          "Item2": {
+            "$ref": "94"
+          }
+        },
+        {
+          "Item1": 29,
+          "Item2": {
+            "$ref": "6"
+          }
+        },
+        {
+          "Item1": 36,
+          "Item2": {
+            "$ref": "16"
+          }
+        },
+        {
+          "Item1": 43,
+          "Item2": {
+            "$ref": "3"
+          }
+        },
+        {
+          "Item1": 50,
+          "Item2": {
+            "$ref": "26"
+          }
+        },
+        {
+          "Item1": 57,
+          "Item2": {
+            "$ref": "108"
+          }
+        },
+        {
+          "Item1": 64,
+          "Item2": {
+            "$ref": "79"
+          }
+        },
+        {
+          "Item1": 71,
+          "Item2": {
+            "$ref": "34"
+          }
+        },
+        {
+          "Item1": 78,
+          "Item2": {
+            "$ref": "161"
+          }
+        },
+        {
+          "Item1": 85,
+          "Item2": {
+            "$ref": "121"
+          }
+        },
+        {
           "Item1": 92,
           "Item2": {
-            "$ref": "180"
+            "$ref": "179"
           }
         }
       ],
@@ -3442,7 +3306,7 @@
       ]
     },
     {
-      "$id": "325",
+      "$id": "189",
       "Name": "Moltres",
       "ID": 146,
       "Type1": 7,
@@ -3460,136 +3324,117 @@
       "EvolvesTo": [],
       "LevelUpMoves": [
         {
-          "$id": "326",
           "Item1": 1,
           "Item2": {
-            "$ref": "122"
+            "$ref": "121"
           }
         },
         {
-          "$id": "327",
           "Item1": 1,
           "Item2": {
-            "$ref": "72"
+            "$ref": "71"
           }
         },
         {
-          "$id": "328",
           "Item1": 1,
           "Item2": {
-            "$ref": "134"
+            "$ref": "133"
           }
         },
         {
-          "$id": "329",
           "Item1": 1,
           "Item2": {
-            "$ref": "69"
+            "$ref": "68"
           }
         },
         {
-          "$id": "330",
           "Item1": 1,
           "Item2": {
-            "$ref": "177"
+            "$ref": "176"
           }
         },
         {
-          "$id": "331",
           "Item1": 1,
+          "Item2": {
+            "$ref": "38"
+          }
+        },
+        {
+          "Item1": 8,
+          "Item2": {
+            "$ref": "46"
+          }
+        },
+        {
+          "Item1": 15,
+          "Item2": {
+            "$ref": "3"
+          }
+        },
+        {
+          "Item1": 22,
           "Item2": {
             "$ref": "39"
           }
         },
         {
-          "$id": "332",
-          "Item1": 8,
+          "Item1": 29,
           "Item2": {
-            "$ref": "47"
+            "$ref": "6"
           }
         },
         {
-          "$id": "333",
-          "Item1": 15,
+          "Item1": 36,
+          "Item2": {
+            "$ref": "49"
+          }
+        },
+        {
+          "Item1": 43,
+          "Item2": {
+            "$ref": "123"
+          }
+        },
+        {
+          "Item1": 50,
           "Item2": {
             "$ref": "4"
           }
         },
         {
-          "$id": "334",
-          "Item1": 22,
-          "Item2": {
-            "$ref": "40"
-          }
-        },
-        {
-          "$id": "335",
-          "Item1": 29,
-          "Item2": {
-            "$ref": "7"
-          }
-        },
-        {
-          "$id": "336",
-          "Item1": 36,
-          "Item2": {
-            "$ref": "50"
-          }
-        },
-        {
-          "$id": "337",
-          "Item1": 43,
-          "Item2": {
-            "$ref": "124"
-          }
-        },
-        {
-          "$id": "338",
-          "Item1": 50,
-          "Item2": {
-            "$ref": "5"
-          }
-        },
-        {
-          "$id": "339",
           "Item1": 57,
           "Item2": {
-            "$ref": "150"
+            "$ref": "149"
           }
         },
         {
-          "$id": "340",
           "Item1": 64,
           "Item2": {
-            "$ref": "69"
+            "$ref": "68"
           }
         },
         {
-          "$id": "341",
           "Item1": 71,
           "Item2": {
-            "$ref": "144"
+            "$ref": "143"
           }
         },
         {
-          "$id": "342",
           "Item1": 78,
           "Item2": {
-            "$ref": "134"
+            "$ref": "133"
           }
         },
         {
-          "$id": "343",
           "Item1": 85,
           "Item2": {
-            "$ref": "122"
+            "$ref": "121"
           }
         },
         {
-          "$id": "344",
           "Item1": 92,
           "Item2": {
-            "$ref": "72"
+            "$ref": "71"
           }
         }
       ],
@@ -3634,7 +3479,7 @@
       ]
     },
     {
-      "$id": "345",
+      "$id": "190",
       "Name": "Mewtwo",
       "ID": 150,
       "Type1": 15,
@@ -3652,129 +3497,111 @@
       "EvolvesTo": [],
       "LevelUpMoves": [
         {
-          "$id": "346",
           "Item1": 1,
           "Item2": {
-            "$ref": "20"
+            "$ref": "19"
           }
         },
         {
-          "$id": "347",
           "Item1": 1,
           "Item2": {
-            "$ref": "26"
+            "$ref": "25"
           }
         },
         {
-          "$id": "348",
           "Item1": 1,
           "Item2": {
-            "$ref": "124"
+            "$ref": "123"
           }
         },
         {
-          "$id": "349",
           "Item1": 8,
           "Item2": {
-            "$ref": "154"
+            "$ref": "153"
           }
         },
         {
-          "$id": "350",
           "Item1": 15,
           "Item2": {
-            "$ref": "60"
+            "$ref": "59"
           }
         },
         {
-          "$id": "351",
           "Item1": 22,
           "Item2": {
-            "$ref": "103"
+            "$ref": "102"
           }
         },
         {
-          "$id": "352",
           "Item1": 29,
           "Item2": {
-            "$ref": "86"
+            "$ref": "85"
           }
         },
         {
-          "$id": "353",
           "Item1": 36,
-          "Item2": {
-            "$ref": "105"
-          }
-        },
-        {
-          "$id": "354",
-          "Item1": 43,
-          "Item2": {
-            "$ref": "100"
-          }
-        },
-        {
-          "$id": "355",
-          "Item1": 43,
-          "Item2": {
-            "$ref": "65"
-          }
-        },
-        {
-          "$id": "356",
-          "Item1": 50,
-          "Item2": {
-            "$ref": "111"
-          }
-        },
-        {
-          "$id": "357",
-          "Item1": 57,
           "Item2": {
             "$ref": "104"
           }
         },
         {
-          "$id": "358",
-          "Item1": 64,
+          "Item1": 43,
           "Item2": {
-            "$ref": "10"
+            "$ref": "99"
           }
         },
         {
-          "$id": "359",
-          "Item1": 70,
+          "Item1": 43,
+          "Item2": {
+            "$ref": "64"
+          }
+        },
+        {
+          "Item1": 50,
+          "Item2": {
+            "$ref": "110"
+          }
+        },
+        {
+          "Item1": 57,
+          "Item2": {
+            "$ref": "103"
+          }
+        },
+        {
+          "Item1": 64,
           "Item2": {
             "$ref": "9"
           }
         },
         {
-          "$id": "360",
+          "Item1": 70,
+          "Item2": {
+            "$ref": "8"
+          }
+        },
+        {
           "Item1": 79,
           "Item2": {
-            "$ref": "6"
+            "$ref": "5"
           }
         },
         {
-          "$id": "361",
           "Item1": 86,
           "Item2": {
-            "$ref": "87"
+            "$ref": "86"
           }
         },
         {
-          "$id": "362",
           "Item1": 93,
           "Item2": {
-            "$ref": "82"
+            "$ref": "81"
           }
         },
         {
-          "$id": "363",
           "Item1": 100,
           "Item2": {
-            "$ref": "107"
+            "$ref": "106"
           }
         }
       ],
@@ -3847,7 +3674,7 @@
       ]
     },
     {
-      "$id": "364",
+      "$id": "191",
       "Name": "Mew",
       "ID": 151,
       "Type1": 15,
@@ -3865,94 +3692,81 @@
       "EvolvesTo": [],
       "LevelUpMoves": [
         {
-          "$id": "365",
           "Item1": 1,
           "Item2": {
-            "$ref": "98"
+            "$ref": "97"
           }
         },
         {
-          "$id": "366",
           "Item1": 1,
           "Item2": {
-            "$ref": "113"
+            "$ref": "112"
           }
         },
         {
-          "$id": "367",
           "Item1": 1,
           "Item2": {
-            "$ref": "168"
+            "$ref": "167"
           }
         },
         {
-          "$id": "368",
           "Item1": 10,
-          "Item2": {
-            "$ref": "83"
-          }
-        },
-        {
-          "$id": "369",
-          "Item1": 20,
-          "Item2": {
-            "$ref": "84"
-          }
-        },
-        {
-          "$id": "370",
-          "Item1": 30,
-          "Item2": {
-            "$ref": "104"
-          }
-        },
-        {
-          "$id": "371",
-          "Item1": 40,
-          "Item2": {
-            "$ref": "10"
-          }
-        },
-        {
-          "$id": "372",
-          "Item1": 50,
-          "Item2": {
-            "$ref": "7"
-          }
-        },
-        {
-          "$id": "373",
-          "Item1": 60,
-          "Item2": {
-            "$ref": "6"
-          }
-        },
-        {
-          "$id": "374",
-          "Item1": 70,
           "Item2": {
             "$ref": "82"
           }
         },
         {
-          "$id": "375",
-          "Item1": 80,
+          "Item1": 20,
           "Item2": {
-            "$ref": "11"
+            "$ref": "83"
           }
         },
         {
-          "$id": "376",
-          "Item1": 90,
+          "Item1": 30,
           "Item2": {
-            "$ref": "88"
+            "$ref": "103"
           }
         },
         {
-          "$id": "377",
-          "Item1": 100,
+          "Item1": 40,
           "Item2": {
             "$ref": "9"
+          }
+        },
+        {
+          "Item1": 50,
+          "Item2": {
+            "$ref": "6"
+          }
+        },
+        {
+          "Item1": 60,
+          "Item2": {
+            "$ref": "5"
+          }
+        },
+        {
+          "Item1": 70,
+          "Item2": {
+            "$ref": "81"
+          }
+        },
+        {
+          "Item1": 80,
+          "Item2": {
+            "$ref": "10"
+          }
+        },
+        {
+          "Item1": 90,
+          "Item2": {
+            "$ref": "87"
+          }
+        },
+        {
+          "Item1": 100,
+          "Item2": {
+            "$ref": "8"
           }
         }
       ],
@@ -4069,988 +3883,329 @@
       ]
     }
   ],
-  "TMList": [
-    {
-      "$id": "378",
-      "Item1": 1,
-      "Item2": {
-        "$ref": "71"
-      }
-    },
-    {
-      "$id": "379",
-      "Item1": 2,
-      "Item2": {
-        "$ref": "31"
-      }
-    },
-    {
-      "$id": "380",
-      "Item1": 3,
-      "Item2": {
-        "$ref": "106"
-      }
-    },
-    {
-      "$id": "381",
-      "Item1": 4,
-      "Item2": {
-        "$ref": "16"
-      }
-    },
-    {
-      "$id": "382",
-      "Item1": 5,
-      "Item2": {
-        "$ref": "117"
-      }
-    },
-    {
-      "$id": "383",
-      "Item1": 6,
-      "Item2": {
-        "$ref": "167"
-      }
-    },
-    {
-      "$id": "384",
-      "Item1": 7,
-      "Item2": {
-        "$ref": "68"
-      }
-    },
-    {
-      "$id": "385",
-      "Item1": 8,
-      "Item2": {
-        "$ref": "14"
-      }
-    },
-    {
-      "$id": "386",
-      "Item1": 9,
-      "Item2": {
-        "$ref": "171"
-      }
-    },
-    {
-      "$id": "387",
-      "Item1": 10,
-      "Item2": {
-        "$ref": "70"
-      }
-    },
-    {
-      "$id": "388",
-      "Item1": 11,
-      "Item2": {
-        "$ref": "150"
-      }
-    },
-    {
-      "$id": "389",
-      "Item1": 12,
-      "Item2": {
-        "$ref": "160"
-      }
-    },
-    {
-      "$id": "390",
-      "Item1": 13,
-      "Item2": {
-        "$ref": "74"
-      }
-    },
-    {
-      "$id": "391",
-      "Item1": 14,
-      "Item2": {
-        "$ref": "12"
-      }
-    },
-    {
-      "$id": "392",
-      "Item1": 15,
-      "Item2": {
-        "$ref": "73"
-      }
-    },
-    {
-      "$id": "393",
-      "Item1": 16,
-      "Item2": {
-        "$ref": "80"
-      }
-    },
-    {
-      "$id": "394",
-      "Item1": 17,
-      "Item2": {
-        "$ref": "102"
-      }
-    },
-    {
-      "$id": "395",
-      "Item1": 18,
-      "Item2": {
-        "$ref": "109"
-      }
-    },
-    {
-      "$id": "396",
-      "Item1": 19,
-      "Item2": {
-        "$ref": "122"
-      }
-    },
-    {
-      "$id": "397",
-      "Item1": 20,
-      "Item2": {
-        "$ref": "124"
-      }
-    },
-    {
-      "$id": "398",
-      "Item1": 21,
-      "Item2": {
-        "$ref": "59"
-      }
-    },
-    {
-      "$id": "399",
-      "Item1": 22,
-      "Item2": {
-        "$ref": "144"
-      }
-    },
-    {
-      "$id": "400",
-      "Item1": 23,
-      "Item2": {
-        "$ref": "141"
-      }
-    },
-    {
-      "$id": "401",
-      "Item1": 24,
-      "Item2": {
-        "$ref": "165"
-      }
-    },
-    {
-      "$id": "402",
-      "Item1": 25,
-      "Item2": {
-        "$ref": "162"
-      }
-    },
-    {
-      "$id": "403",
-      "Item1": 26,
-      "Item2": {
-        "$ref": "36"
-      }
-    },
-    {
-      "$id": "404",
-      "Item1": 27,
-      "Item2": {
-        "$ref": "116"
-      }
-    },
-    {
-      "$id": "405",
-      "Item1": 28,
-      "Item2": {
-        "$ref": "25"
-      }
-    },
-    {
-      "$id": "406",
-      "Item1": 29,
-      "Item2": {
-        "$ref": "104"
-      }
-    },
-    {
-      "$id": "407",
-      "Item1": 30,
-      "Item2": {
-        "$ref": "131"
-      }
-    },
-    {
-      "$id": "408",
-      "Item1": 31,
-      "Item2": {
-        "$ref": "13"
-      }
-    },
-    {
-      "$id": "409",
-      "Item1": 32,
-      "Item2": {
-        "$ref": "29"
-      }
-    },
-    {
-      "$id": "410",
-      "Item1": 33,
-      "Item2": {
-        "$ref": "112"
-      }
-    },
-    {
-      "$id": "411",
-      "Item1": 1,
-      "Item2": {
-        "$ref": "71"
-      }
-    },
-    {
-      "$id": "412",
-      "Item1": 2,
-      "Item2": {
-        "$ref": "31"
-      }
-    },
-    {
-      "$id": "413",
-      "Item1": 3,
-      "Item2": {
-        "$ref": "106"
-      }
-    },
-    {
-      "$id": "414",
-      "Item1": 4,
-      "Item2": {
-        "$ref": "16"
-      }
-    },
-    {
-      "$id": "415",
-      "Item1": 5,
-      "Item2": {
-        "$ref": "117"
-      }
-    },
-    {
-      "$id": "416",
-      "Item1": 6,
-      "Item2": {
-        "$ref": "167"
-      }
-    },
-    {
-      "$id": "417",
-      "Item1": 7,
-      "Item2": {
-        "$ref": "68"
-      }
-    },
-    {
-      "$id": "418",
-      "Item1": 8,
-      "Item2": {
-        "$ref": "14"
-      }
-    },
-    {
-      "$id": "419",
-      "Item1": 9,
-      "Item2": {
-        "$ref": "171"
-      }
-    },
-    {
-      "$id": "420",
-      "Item1": 10,
-      "Item2": {
-        "$ref": "70"
-      }
-    },
-    {
-      "$id": "421",
-      "Item1": 11,
-      "Item2": {
-        "$ref": "150"
-      }
-    },
-    {
-      "$id": "422",
-      "Item1": 12,
-      "Item2": {
-        "$ref": "160"
-      }
-    },
-    {
-      "$id": "423",
-      "Item1": 13,
-      "Item2": {
-        "$ref": "74"
-      }
-    },
-    {
-      "$id": "424",
-      "Item1": 14,
-      "Item2": {
-        "$ref": "12"
-      }
-    },
-    {
-      "$id": "425",
-      "Item1": 15,
-      "Item2": {
-        "$ref": "73"
-      }
-    },
-    {
-      "$id": "426",
-      "Item1": 16,
-      "Item2": {
-        "$ref": "80"
-      }
-    },
-    {
-      "$id": "427",
-      "Item1": 17,
-      "Item2": {
-        "$ref": "102"
-      }
-    },
-    {
-      "$id": "428",
-      "Item1": 18,
-      "Item2": {
-        "$ref": "109"
-      }
-    },
-    {
-      "$id": "429",
-      "Item1": 19,
-      "Item2": {
-        "$ref": "122"
-      }
-    },
-    {
-      "$id": "430",
-      "Item1": 20,
-      "Item2": {
-        "$ref": "124"
-      }
-    },
-    {
-      "$id": "431",
-      "Item1": 21,
-      "Item2": {
-        "$ref": "59"
-      }
-    },
-    {
-      "$id": "432",
-      "Item1": 22,
-      "Item2": {
-        "$ref": "144"
-      }
-    },
-    {
-      "$id": "433",
-      "Item1": 23,
-      "Item2": {
-        "$ref": "141"
-      }
-    },
-    {
-      "$id": "434",
-      "Item1": 24,
-      "Item2": {
-        "$ref": "165"
-      }
-    },
-    {
-      "$id": "435",
-      "Item1": 25,
-      "Item2": {
-        "$ref": "162"
-      }
-    },
-    {
-      "$id": "436",
-      "Item1": 26,
-      "Item2": {
-        "$ref": "36"
-      }
-    },
-    {
-      "$id": "437",
-      "Item1": 27,
-      "Item2": {
-        "$ref": "116"
-      }
-    },
-    {
-      "$id": "438",
-      "Item1": 28,
-      "Item2": {
-        "$ref": "25"
-      }
-    },
-    {
-      "$id": "439",
-      "Item1": 29,
-      "Item2": {
-        "$ref": "104"
-      }
-    },
-    {
-      "$id": "440",
-      "Item1": 30,
-      "Item2": {
-        "$ref": "131"
-      }
-    },
-    {
-      "$id": "441",
-      "Item1": 31,
-      "Item2": {
-        "$ref": "13"
-      }
-    },
-    {
-      "$id": "442",
-      "Item1": 32,
-      "Item2": {
-        "$ref": "29"
-      }
-    },
-    {
-      "$id": "443",
-      "Item1": 33,
-      "Item2": {
-        "$ref": "112"
-      }
-    },
-    {
-      "$id": "444",
-      "Item1": 34,
-      "Item2": {
-        "$ref": "140"
-      }
-    },
-    {
-      "$id": "445",
-      "Item1": 35,
-      "Item2": {
-        "$ref": "50"
-      }
-    },
-    {
-      "$id": "446",
-      "Item1": 36,
-      "Item2": {
-        "$ref": "139"
-      }
-    },
-    {
-      "$id": "447",
-      "Item1": 37,
-      "Item2": {
-        "$ref": "125"
-      }
-    },
-    {
-      "$id": "448",
-      "Item1": 38,
-      "Item2": {
-        "$ref": "45"
-      }
-    },
-    {
-      "$id": "449",
-      "Item1": 39,
-      "Item2": {
-        "$ref": "121"
-      }
-    },
-    {
-      "$id": "450",
-      "Item1": 40,
-      "Item2": {
-        "$ref": "3"
-      }
-    },
-    {
-      "$id": "451",
-      "Item1": 41,
-      "Item2": {
-        "$ref": "166"
-      }
-    },
-    {
-      "$id": "452",
-      "Item1": 42,
-      "Item2": {
-        "$ref": "43"
-      }
-    },
-    {
-      "$id": "453",
-      "Item1": 43,
-      "Item2": {
-        "$ref": "49"
-      }
-    },
-    {
-      "$id": "454",
-      "Item1": 44,
-      "Item2": {
-        "$ref": "114"
-      }
-    },
-    {
-      "$id": "455",
-      "Item1": 45,
-      "Item2": {
-        "$ref": "8"
-      }
-    },
-    {
-      "$id": "456",
-      "Item1": 46,
-      "Item2": {
-        "$ref": "161"
-      }
-    },
-    {
-      "$id": "457",
-      "Item1": 47,
-      "Item2": {
-        "$ref": "81"
-      }
-    },
-    {
-      "$id": "458",
-      "Item1": 48,
-      "Item2": {
-        "$ref": "123"
-      }
-    },
-    {
-      "$id": "459",
-      "Item1": 49,
-      "Item2": {
-        "$ref": "37"
-      }
-    },
-    {
-      "$id": "460",
-      "Item1": 50,
-      "Item2": {
-        "$ref": "90"
-      }
-    },
-    {
-      "$id": "461",
-      "Item1": 51,
-      "Item2": {
-        "$ref": "145"
-      }
-    },
-    {
-      "$id": "462",
-      "Item1": 52,
-      "Item2": {
-        "$ref": "56"
-      }
-    },
-    {
-      "$id": "463",
-      "Item1": 53,
-      "Item2": {
-        "$ref": "41"
-      }
-    },
-    {
-      "$id": "464",
-      "Item1": 54,
-      "Item2": {
-        "$ref": "44"
-      }
-    },
-    {
-      "$id": "465",
-      "Item1": 55,
-      "Item2": {
-        "$ref": "126"
-      }
-    },
-    {
-      "$id": "466",
-      "Item1": 56,
-      "Item2": {
-        "$ref": "54"
-      }
-    },
-    {
-      "$id": "467",
-      "Item1": 57,
-      "Item2": {
-        "$ref": "18"
-      }
-    },
-    {
-      "$id": "468",
-      "Item1": 58,
-      "Item2": {
-        "$ref": "135"
-      }
-    },
-    {
-      "$id": "469",
-      "Item1": 59,
-      "Item2": {
-        "$ref": "76"
-      }
-    },
-    {
-      "$id": "470",
-      "Item1": 60,
-      "Item2": {
-        "$ref": "108"
-      }
-    },
-    {
-      "$id": "471",
-      "Item1": 61,
-      "Item2": {
-        "$ref": "176"
-      }
-    },
-    {
-      "$id": "472",
-      "Item1": 62,
-      "Item2": {
-        "$ref": "2"
-      }
-    },
-    {
-      "$id": "473",
-      "Item1": 63,
-      "Item2": {
-        "$ref": "38"
-      }
-    },
-    {
-      "$id": "474",
-      "Item1": 64,
-      "Item2": {
-        "$ref": "42"
-      }
-    },
-    {
-      "$id": "475",
-      "Item1": 65,
-      "Item2": {
-        "$ref": "132"
-      }
-    },
-    {
-      "$id": "476",
-      "Item1": 66,
-      "Item2": {
-        "$ref": "91"
-      }
-    },
-    {
-      "$id": "477",
-      "Item1": 67,
-      "Item2": {
-        "$ref": "115"
-      }
-    },
-    {
-      "$id": "478",
-      "Item1": 68,
-      "Item2": {
-        "$ref": "61"
-      }
-    },
-    {
-      "$id": "479",
-      "Item1": 69,
-      "Item2": {
-        "$ref": "118"
-      }
-    },
-    {
-      "$id": "480",
-      "Item1": 70,
-      "Item2": {
-        "$ref": "52"
-      }
-    },
-    {
-      "$id": "481",
-      "Item1": 71,
-      "Item2": {
-        "$ref": "146"
-      }
-    },
-    {
-      "$id": "482",
-      "Item1": 72,
-      "Item2": {
-        "$ref": "173"
-      }
-    },
-    {
-      "$id": "483",
-      "Item1": 73,
-      "Item2": {
-        "$ref": "164"
-      }
-    },
-    {
-      "$id": "484",
-      "Item1": 74,
-      "Item2": {
-        "$ref": "67"
-      }
-    },
-    {
-      "$id": "485",
-      "Item1": 75,
-      "Item2": {
-        "$ref": "155"
-      }
-    },
-    {
-      "$id": "486",
-      "Item1": 76,
-      "Item2": {
-        "$ref": "148"
-      }
-    },
-    {
-      "$id": "487",
-      "Item1": 77,
-      "Item2": {
-        "$ref": "103"
-      }
-    },
-    {
-      "$id": "488",
-      "Item1": 78,
-      "Item2": {
-        "$ref": "15"
-      }
-    },
-    {
-      "$id": "489",
-      "Item1": 79,
-      "Item2": {
-        "$ref": "58"
-      }
-    },
-    {
-      "$id": "490",
-      "Item1": 80,
-      "Item2": {
-        "$ref": "119"
-      }
-    },
-    {
-      "$id": "491",
-      "Item1": 81,
-      "Item2": {
-        "$ref": "179"
-      }
-    },
-    {
-      "$id": "492",
-      "Item1": 82,
-      "Item2": {
-        "$ref": "33"
-      }
-    },
-    {
-      "$id": "493",
-      "Item1": 83,
-      "Item2": {
-        "$ref": "78"
-      }
-    },
-    {
-      "$id": "494",
-      "Item1": 84,
-      "Item2": {
-        "$ref": "96"
-      }
-    },
-    {
-      "$id": "495",
-      "Item1": 85,
-      "Item2": {
-        "$ref": "34"
-      }
-    },
-    {
-      "$id": "496",
-      "Item1": 86,
-      "Item2": {
-        "$ref": "62"
-      }
-    },
-    {
-      "$id": "497",
-      "Item1": 87,
-      "Item2": {
-        "$ref": "152"
-      }
-    },
-    {
-      "$id": "498",
-      "Item1": 88,
-      "Item2": {
-        "$ref": "138"
-      }
-    },
-    {
-      "$id": "499",
-      "Item1": 89,
-      "Item2": {
-        "$ref": "170"
-      }
-    },
-    {
-      "$id": "500",
-      "Item1": 90,
-      "Item2": {
-        "$ref": "149"
-      }
-    },
-    {
-      "$id": "501",
-      "Item1": 91,
-      "Item2": {
-        "$ref": "53"
-      }
-    },
-    {
-      "$id": "502",
-      "Item1": 92,
-      "Item2": {
-        "$ref": "169"
-      }
-    },
-    {
-      "$id": "503",
-      "Item1": 93,
-      "Item2": {
-        "$ref": "175"
-      }
-    },
-    {
-      "$id": "504",
-      "Item1": 94,
-      "Item2": {
-        "$ref": "129"
-      }
-    },
-    {
-      "$id": "505",
-      "Item1": 95,
-      "Item2": {
-        "$ref": "143"
-      }
-    },
-    {
-      "$id": "506",
-      "Item1": 96,
-      "Item2": {
-        "$ref": "89"
-      }
-    },
-    {
-      "$id": "507",
-      "Item1": 97,
-      "Item2": {
-        "$ref": "22"
-      }
-    },
-    {
-      "$id": "508",
-      "Item1": 98,
-      "Item2": {
-        "$ref": "101"
-      }
-    },
-    {
-      "$id": "509",
-      "Item1": 99,
-      "Item2": {
-        "$ref": "23"
-      }
-    },
-    {
-      "$id": "510",
-      "Item1": 100,
-      "Item2": {
-        "$ref": "19"
-      }
+  "TMList": {
+    "1": {
+      "$ref": "70"
+    },
+    "2": {
+      "$ref": "30"
+    },
+    "3": {
+      "$ref": "105"
+    },
+    "4": {
+      "$ref": "15"
+    },
+    "5": {
+      "$ref": "116"
+    },
+    "6": {
+      "$ref": "166"
+    },
+    "7": {
+      "$ref": "67"
+    },
+    "8": {
+      "$ref": "13"
+    },
+    "9": {
+      "$ref": "170"
+    },
+    "10": {
+      "$ref": "69"
+    },
+    "11": {
+      "$ref": "149"
+    },
+    "12": {
+      "$ref": "159"
+    },
+    "13": {
+      "$ref": "73"
+    },
+    "14": {
+      "$ref": "11"
+    },
+    "15": {
+      "$ref": "72"
+    },
+    "16": {
+      "$ref": "79"
+    },
+    "17": {
+      "$ref": "101"
+    },
+    "18": {
+      "$ref": "108"
+    },
+    "19": {
+      "$ref": "121"
+    },
+    "20": {
+      "$ref": "123"
+    },
+    "21": {
+      "$ref": "58"
+    },
+    "22": {
+      "$ref": "143"
+    },
+    "23": {
+      "$ref": "140"
+    },
+    "24": {
+      "$ref": "164"
+    },
+    "25": {
+      "$ref": "161"
+    },
+    "26": {
+      "$ref": "35"
+    },
+    "27": {
+      "$ref": "115"
+    },
+    "28": {
+      "$ref": "24"
+    },
+    "29": {
+      "$ref": "103"
+    },
+    "30": {
+      "$ref": "130"
+    },
+    "31": {
+      "$ref": "12"
+    },
+    "32": {
+      "$ref": "28"
+    },
+    "33": {
+      "$ref": "111"
+    },
+    "34": {
+      "$ref": "139"
+    },
+    "35": {
+      "$ref": "49"
+    },
+    "36": {
+      "$ref": "138"
+    },
+    "37": {
+      "$ref": "124"
+    },
+    "38": {
+      "$ref": "44"
+    },
+    "39": {
+      "$ref": "120"
+    },
+    "40": {
+      "$ref": "2"
+    },
+    "41": {
+      "$ref": "165"
+    },
+    "42": {
+      "$ref": "42"
+    },
+    "43": {
+      "$ref": "48"
+    },
+    "44": {
+      "$ref": "113"
+    },
+    "45": {
+      "$ref": "7"
+    },
+    "46": {
+      "$ref": "160"
+    },
+    "47": {
+      "$ref": "80"
+    },
+    "48": {
+      "$ref": "122"
+    },
+    "49": {
+      "$ref": "36"
+    },
+    "50": {
+      "$ref": "89"
+    },
+    "51": {
+      "$ref": "144"
+    },
+    "52": {
+      "$ref": "55"
+    },
+    "53": {
+      "$ref": "40"
+    },
+    "54": {
+      "$ref": "43"
+    },
+    "55": {
+      "$ref": "125"
+    },
+    "56": {
+      "$ref": "53"
+    },
+    "57": {
+      "$ref": "17"
+    },
+    "58": {
+      "$ref": "134"
+    },
+    "59": {
+      "$ref": "75"
+    },
+    "60": {
+      "$ref": "107"
+    },
+    "61": {
+      "$ref": "175"
+    },
+    "62": {
+      "$ref": "1"
+    },
+    "63": {
+      "$ref": "37"
+    },
+    "64": {
+      "$ref": "41"
+    },
+    "65": {
+      "$ref": "131"
+    },
+    "66": {
+      "$ref": "90"
+    },
+    "67": {
+      "$ref": "114"
+    },
+    "68": {
+      "$ref": "60"
+    },
+    "69": {
+      "$ref": "117"
+    },
+    "70": {
+      "$ref": "51"
+    },
+    "71": {
+      "$ref": "145"
+    },
+    "72": {
+      "$ref": "172"
+    },
+    "73": {
+      "$ref": "163"
+    },
+    "74": {
+      "$ref": "66"
+    },
+    "75": {
+      "$ref": "154"
+    },
+    "76": {
+      "$ref": "147"
+    },
+    "77": {
+      "$ref": "102"
+    },
+    "78": {
+      "$ref": "14"
+    },
+    "79": {
+      "$ref": "57"
+    },
+    "80": {
+      "$ref": "118"
+    },
+    "81": {
+      "$ref": "178"
+    },
+    "82": {
+      "$ref": "32"
+    },
+    "83": {
+      "$ref": "77"
+    },
+    "84": {
+      "$ref": "95"
+    },
+    "85": {
+      "$ref": "33"
+    },
+    "86": {
+      "$ref": "61"
+    },
+    "87": {
+      "$ref": "151"
+    },
+    "88": {
+      "$ref": "137"
+    },
+    "89": {
+      "$ref": "169"
+    },
+    "90": {
+      "$ref": "148"
+    },
+    "91": {
+      "$ref": "52"
+    },
+    "92": {
+      "$ref": "168"
+    },
+    "93": {
+      "$ref": "174"
+    },
+    "94": {
+      "$ref": "128"
+    },
+    "95": {
+      "$ref": "142"
+    },
+    "96": {
+      "$ref": "88"
+    },
+    "97": {
+      "$ref": "21"
+    },
+    "98": {
+      "$ref": "100"
+    },
+    "99": {
+      "$ref": "22"
+    },
+    "100": {
+      "$ref": "18"
     }
-  ],
-  "HMList": [
-    {
-      "$id": "511",
-      "Item1": 1,
-      "Item2": {
-        "$ref": "21"
-      }
+  },
+  "HMList": {
+    "1": {
+      "$ref": "20"
     },
-    {
-      "$id": "512",
-      "Item1": 2,
-      "Item2": {
-        "$ref": "55"
-      }
+    "2": {
+      "$ref": "54"
     },
-    {
-      "$id": "513",
-      "Item1": 3,
-      "Item2": {
-        "$ref": "151"
-      }
+    "3": {
+      "$ref": "150"
     },
-    {
-      "$id": "514",
-      "Item1": 4,
-      "Item2": {
-        "$ref": "147"
-      }
+    "4": {
+      "$ref": "146"
     },
-    {
-      "$id": "515",
-      "Item1": 5,
-      "Item2": {
-        "$ref": "174"
-      }
+    "5": {
+      "$ref": "173"
     },
-    {
-      "$id": "516",
-      "Item1": 6,
-      "Item2": {
-        "$ref": "120"
-      }
+    "6": {
+      "$ref": "119"
     },
-    {
-      "$id": "517",
-      "Item1": 7,
-      "Item2": {
-        "$ref": "28"
-      }
+    "7": {
+      "$ref": "27"
     }
-  ]
+  }
 }

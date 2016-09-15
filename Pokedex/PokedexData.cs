@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Pokedex
 {
@@ -16,11 +12,11 @@ namespace Pokedex
         {
             get; set;
         }
-        public List<Tuple<int, Move>> TMList
+        public Dictionary<int, Move> TMList
         {
             get; set;
         }
-        public List<Tuple<int, Move>> HMList
+        public Dictionary<int, Move> HMList
         {
             get; set;
         }

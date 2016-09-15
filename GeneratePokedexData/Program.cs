@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.IO;
+﻿using Newtonsoft.Json;
 using Pokedex;
-using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.IO;
 
 namespace GeneratePokedexData
 {
@@ -25,8 +24,8 @@ namespace GeneratePokedexData
                 Console.WriteLine("No data found, creating new data");
                 dex.Moves = new List<Move>();
                 dex.PokemonList = new List<Pokemon>();
-                dex.TMList = new List<Tuple<int, Move>>();
-                dex.HMList = new List<Tuple<int, Move>>();
+                dex.TMList = new Dictionary<int, Move>();
+                dex.HMList = new Dictionary<int, Move>();
             }
             bool endFlag = false;
             while (!endFlag)
@@ -390,7 +389,7 @@ namespace GeneratePokedexData
                         Console.WriteLine("That move doesn't exist yet. Let's create it.");
                         CreateNewMove(dex, move);
                     }
-                    dex.TMList.Add(new Tuple<int, Move>(i, dex.Moves.Find(m => m.Name == move)));
+                    dex.TMList.Add(i, dex.Moves.Find(m => m.Name == move));
                 }
             }
             else
@@ -415,7 +414,7 @@ namespace GeneratePokedexData
                         Console.WriteLine("That move doesn't exist yet. Let's create it.");
                         CreateNewMove(dex, move);
                     }
-                    dex.HMList.Add(new Tuple<int, Move>(i, dex.Moves.Find(m => m.Name == move)));
+                    dex.HMList.Add(i, dex.Moves.Find(m => m.Name == move));
                 }
             }
             else
@@ -429,8 +428,7 @@ namespace GeneratePokedexData
         {
             dex.PokemonList.Sort(Pokemon.CompareByID);
             dex.Moves.Sort(Move.CompareByName);
-            string json = JsonConvert.SerializeObject(dex, Formatting.Indented,
-                new JsonSerializerSettings { PreserveReferencesHandling = PreserveReferencesHandling.Objects });
+            string json = JsonConvert.SerializeObject(dex, Formatting.Indented);
             File.WriteAllText(fileName, json);
             Environment.Exit(0);
         }

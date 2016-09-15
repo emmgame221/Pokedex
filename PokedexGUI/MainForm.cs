@@ -85,11 +85,11 @@ namespace PokedexGUI
             tmHMMoveStrings.Add(tmHmMoveHeader);
             foreach(int tm in currentPokemon.LearnableTMs)
             {
-                tmHMMoveStrings.Add(string.Format("{0,5}{1}", tm, pokedex.TMList[tm - 1].Item2));
+                tmHMMoveStrings.Add(string.Format("{0,5}{1}", tm, pokedex.TMList[tm]));
             }
             foreach (int hm in currentPokemon.LearnableHMs)
             {
-                tmHMMoveStrings.Add(string.Format("{0,5}{1}", hm, pokedex.HMList[hm - 1].Item2));
+                tmHMMoveStrings.Add(string.Format("{0,5}{1}", hm, pokedex.HMList[hm]));
             }
             tmHmListBox.DataSource = tmHMMoveStrings;
             updatingDisplay = false;
