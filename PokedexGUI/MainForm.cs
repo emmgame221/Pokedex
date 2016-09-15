@@ -17,17 +17,19 @@ namespace PokedexGUI
     {
         PokedexData pokedex;
         Pokemon currentPokemon;
-        const string DataFileName = @"C:\Users\Eric\Documents\Visual Studio 2015\Projects\Pokedex\GeneratePokedexData\bin\Debug\pokedex.json";
+        const string DataFileName = @"C:\Users\Eric\Documents\Visual Studio 2015\Projects\Pokedex\Data\pokedex.json";
+
+        bool updatingDisplay = false;
 
         public MainForm()
         {
             pokedex = JsonConvert.DeserializeObject<PokedexData>(File.ReadAllText(DataFileName));
             currentPokemon = pokedex.PokemonList[0];
             InitializeComponent();
-            BindComboBoxes();
+            BindComboBox();
         }
 
-        void BindComboBoxes()
+        void BindComboBox()
         {
             pokemonListComboBox.DataSource = pokedex.PokemonList;
             pokemonListComboBox.DisplayMember = "Name";
@@ -35,8 +37,10 @@ namespace PokedexGUI
 
         void UpdateDisplay()
         {
+            updatingDisplay = true;
+            nameLabel.Text = currentPokemon.Name;
             typeLabel.Text = currentPokemon.Type1.ToString();
-            if(currentPokemon.Type2 != PokemonType.None)
+            if (currentPokemon.Type2 != PokemonType.None)
             {
                 typeLabel.Text += " / " + currentPokemon.Type2.ToString();
             }
@@ -46,13 +50,58 @@ namespace PokedexGUI
             spAttackLabel.Text = string.Format("Sp. Attack: {0}", currentPokemon.BaseSpecialAttack);
             spDefenseLabel.Text = string.Format("Sp. Defense: {0}", currentPokemon.BaseSpecialDefense);
             speedLabel.Text = string.Format("Speed: {0}", currentPokemon.BaseSpeed);
+            ability1Label.Text = currentPokemon.Ability1;
+            if (currentPokemon.Ability2 == currentPokemon.Ability1)
+            {
+                ability2Label.Text = "";
+            }
+            else
+            {
+                ability2Label.Text = currentPokemon.Ability2;
+            }
+            if (currentPokemon.Ability3 == currentPokemon.Ability2)
+            {
+                ability3Label.Text = "";
+            }
+            else
+            {
+                ability3Label.Text = currentPokemon.Ability3;
+            }
+            evolvesFromLabel.Text = (currentPokemon.EvolvesFrom != null) ? currentPokemon.EvolvesFrom.Name : "";
+            evolvesToComboBox.DataSource = currentPokemon.EvolvesTo;
+            evolvesToComboBox.DisplayMember = "Name";
+            updatingDisplay = false;
         }
 
         private void pokemonListComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
+            if (updatingDisplay) return;
             Pokemon newPokemon = (pokedex.PokemonList.Find(p => p.Name == pokemonListComboBox.Text));
             if (newPokemon != null)
                 currentPokemon = newPokemon;
+            UpdateDisplay();
+        }
+
+        private void evolvesFromLabel_Click(object sender, EventArgs e)
+        {
+            Pokemon newPokemon = pokedex.PokemonList.Find(p => p.Name == evolvesFromLabel.Text);
+            if(newPokemon != null)
+            {
+                currentPokemon = newPokemon;
+            }
+            pokemonListComboBox.SelectedIndex = pokedex.PokemonList.IndexOf(currentPokemon);
+            UpdateDisplay();
+        }
+
+        private void evolvesToComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (updatingDisplay) return;
+            Pokemon newPokemon = pokedex.PokemonList.Find(p => p.Name == evolvesToComboBox.Text);
+            if (newPokemon != null)
+            {
+                currentPokemon = newPokemon;
+            }
+            pokemonListComboBox.SelectedIndex = pokedex.PokemonList.IndexOf(currentPokemon);
             UpdateDisplay();
         }
     }

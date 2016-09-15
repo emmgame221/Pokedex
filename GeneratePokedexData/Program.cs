@@ -9,7 +9,7 @@ namespace GeneratePokedexData
 {
     class Program
     {
-        static string fileName = "pokedex.json";
+        const string fileName = @"C:\Users\Eric\Documents\Visual Studio 2015\Projects\Pokedex\Data\pokedex.json";
 
         static void Main(string[] args)
         {
@@ -33,26 +33,32 @@ namespace GeneratePokedexData
             {
                 Console.WriteLine("Type q to exit, p for new pokemon, m for new move, t for tms, h for hms.");
                 string input = Console.ReadLine();
-                switch (input)
+                try
                 {
-                    case "q":
-                        endFlag = true;
-                        continue;
-                    case "p":
-                        CreateNewPokemon(dex);
-                        break;
-                    case "m":
-                        CreateNewMove(dex);
-                        break;
-                    case "h":
-                        SetupHMs(dex);
-                        break;
-                    case "t":
-                        SetupTMs(dex);
-                        break;
-                    default:
-                        Console.WriteLine("Sorry, That is an invalid command");
-                        break;
+                    switch (input)
+                    {
+                        case "q":
+                            endFlag = true;
+                            continue;
+                        case "p":
+                            CreateNewPokemon(dex);
+                            break;
+                        case "m":
+                            CreateNewMove(dex);
+                            break;
+                        case "h":
+                            SetupHMs(dex);
+                            break;
+                        case "t":
+                            SetupTMs(dex);
+                            break;
+                        default:
+                            Console.WriteLine("Sorry, That is an invalid command");
+                            break;
+                    }
+                } catch
+                {
+                    SaveData(dex);
                 }
             }
             SaveData(dex);
@@ -192,6 +198,7 @@ namespace GeneratePokedexData
                 Console.WriteLine("That pokemon doesn't exist yet. Let's create it.");
                 CreateNewPokemon(dex, prevo);
                 newPokemon.EvolvesFrom = dex.PokemonList.Find(p => p.Name == prevo);
+                Console.WriteLine("Back To {0}", newPokemon.Name);
             }
             Console.WriteLine("How many pokemon can this pokemon evolve to?");
             int evoNum;
@@ -207,6 +214,7 @@ namespace GeneratePokedexData
                         Console.WriteLine("That pokemon doesn't exist yet. Let's create it.");
                         CreateNewPokemon(dex, evo);
                         newPokemon.EvolvesTo.Add(dex.PokemonList.Find(p => p.Name == evo));
+                        Console.WriteLine("Back To {0}", newPokemon.Name);
                     }
                     else
                     {
