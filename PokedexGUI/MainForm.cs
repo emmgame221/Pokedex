@@ -20,6 +20,10 @@ namespace PokedexGUI
         const string DataFileName = @"C:\Users\Eric\Documents\Visual Studio 2015\Projects\Pokedex\Data\pokedex.json";
 
         bool updatingDisplay = false;
+        List<string> levelUpMoveStrings;
+        string levelUpMoveHeader = "Level            Name     Type Category   Power Accuracy Effect% PP Description";
+        List<string> tmHMMoveStrings;
+        string tmHmMoveHeader =    "TM/HM            Name     Type Category   Power Accuracy Effect% PP Description";
 
         public MainForm()
         {
@@ -70,6 +74,24 @@ namespace PokedexGUI
             evolvesFromLabel.Text = (currentPokemon.EvolvesFrom != null) ? currentPokemon.EvolvesFrom.Name : "";
             evolvesToComboBox.DataSource = currentPokemon.EvolvesTo;
             evolvesToComboBox.DisplayMember = "Name";
+            levelUpMoveStrings = new List<string>();
+            levelUpMoveStrings.Add(levelUpMoveHeader);
+            foreach(var v in currentPokemon.LevelUpMoves)
+            {
+                levelUpMoveStrings.Add(string.Format("{0,5}{1}", v.Item1, v.Item2.ToString()));
+            }
+            levelUpMovesListBox.DataSource = levelUpMoveStrings;
+            tmHMMoveStrings = new List<string>();
+            tmHMMoveStrings.Add(tmHmMoveHeader);
+            foreach(int tm in currentPokemon.LearnableTMs)
+            {
+                tmHMMoveStrings.Add(string.Format("{0,5}{1}", tm, pokedex.TMList[tm - 1].Item2));
+            }
+            foreach (int hm in currentPokemon.LearnableHMs)
+            {
+                tmHMMoveStrings.Add(string.Format("{0,5}{1}", hm, pokedex.HMList[hm - 1].Item2));
+            }
+            tmHmListBox.DataSource = tmHMMoveStrings;
             updatingDisplay = false;
         }
 

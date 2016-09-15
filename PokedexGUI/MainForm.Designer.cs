@@ -28,12 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.pokemonListComboBox = new System.Windows.Forms.ComboBox();
-            this.pokemonBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.pokedexDataBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.pokemonListBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.typeLabel = new System.Windows.Forms.Label();
             this.hpLabel = new System.Windows.Forms.Label();
             this.attackLabel = new System.Windows.Forms.Label();
@@ -49,38 +45,24 @@
             this.evolvesFromLabel = new System.Windows.Forms.Label();
             this.evolvesToComboBox = new System.Windows.Forms.ComboBox();
             this.nameLabel = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pokemonBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pokedexDataBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pokemonListBindingSource)).BeginInit();
+            this.levelUpMovesListBox = new System.Windows.Forms.ListBox();
+            this.tmHmListBox = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // pokemonListComboBox
             // 
             this.pokemonListComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.pokemonListComboBox.FormattingEnabled = true;
-            this.pokemonListComboBox.Location = new System.Drawing.Point(12, 28);
+            this.pokemonListComboBox.Location = new System.Drawing.Point(179, 12);
             this.pokemonListComboBox.Name = "pokemonListComboBox";
             this.pokemonListComboBox.Size = new System.Drawing.Size(121, 24);
             this.pokemonListComboBox.TabIndex = 0;
             this.pokemonListComboBox.SelectedIndexChanged += new System.EventHandler(this.pokemonListComboBox_SelectedIndexChanged);
             // 
-            // pokemonBindingSource
-            // 
-            this.pokemonBindingSource.DataSource = typeof(Pokedex.Pokemon);
-            // 
-            // pokedexDataBindingSource
-            // 
-            this.pokedexDataBindingSource.DataSource = typeof(Pokedex.PokedexData);
-            // 
-            // pokemonListBindingSource
-            // 
-            this.pokemonListBindingSource.DataMember = "PokemonList";
-            this.pokemonListBindingSource.DataSource = this.pokedexDataBindingSource;
-            // 
             // typeLabel
             // 
             this.typeLabel.AutoSize = true;
-            this.typeLabel.Location = new System.Drawing.Point(18, 69);
+            this.typeLabel.Location = new System.Drawing.Point(231, 90);
             this.typeLabel.Name = "typeLabel";
             this.typeLabel.Size = new System.Drawing.Size(40, 17);
             this.typeLabel.TabIndex = 1;
@@ -89,7 +71,7 @@
             // hpLabel
             // 
             this.hpLabel.AutoSize = true;
-            this.hpLabel.Location = new System.Drawing.Point(160, 73);
+            this.hpLabel.Location = new System.Drawing.Point(360, 73);
             this.hpLabel.Name = "hpLabel";
             this.hpLabel.Size = new System.Drawing.Size(35, 17);
             this.hpLabel.TabIndex = 3;
@@ -98,7 +80,7 @@
             // attackLabel
             // 
             this.attackLabel.AutoSize = true;
-            this.attackLabel.Location = new System.Drawing.Point(160, 90);
+            this.attackLabel.Location = new System.Drawing.Point(360, 90);
             this.attackLabel.Name = "attackLabel";
             this.attackLabel.Size = new System.Drawing.Size(55, 17);
             this.attackLabel.TabIndex = 4;
@@ -107,7 +89,7 @@
             // defenseLabel
             // 
             this.defenseLabel.AutoSize = true;
-            this.defenseLabel.Location = new System.Drawing.Point(160, 107);
+            this.defenseLabel.Location = new System.Drawing.Point(360, 107);
             this.defenseLabel.Name = "defenseLabel";
             this.defenseLabel.Size = new System.Drawing.Size(69, 17);
             this.defenseLabel.TabIndex = 5;
@@ -116,7 +98,7 @@
             // spAttackLabel
             // 
             this.spAttackLabel.AutoSize = true;
-            this.spAttackLabel.Location = new System.Drawing.Point(160, 124);
+            this.spAttackLabel.Location = new System.Drawing.Point(360, 124);
             this.spAttackLabel.Name = "spAttackLabel";
             this.spAttackLabel.Size = new System.Drawing.Size(80, 17);
             this.spAttackLabel.TabIndex = 6;
@@ -125,7 +107,7 @@
             // spDefenseLabel
             // 
             this.spDefenseLabel.AutoSize = true;
-            this.spDefenseLabel.Location = new System.Drawing.Point(160, 141);
+            this.spDefenseLabel.Location = new System.Drawing.Point(360, 141);
             this.spDefenseLabel.Name = "spDefenseLabel";
             this.spDefenseLabel.Size = new System.Drawing.Size(94, 17);
             this.spDefenseLabel.TabIndex = 7;
@@ -134,7 +116,7 @@
             // speedLabel
             // 
             this.speedLabel.AutoSize = true;
-            this.speedLabel.Location = new System.Drawing.Point(160, 158);
+            this.speedLabel.Location = new System.Drawing.Point(360, 158);
             this.speedLabel.Name = "speedLabel";
             this.speedLabel.Size = new System.Drawing.Size(57, 17);
             this.speedLabel.TabIndex = 8;
@@ -143,7 +125,7 @@
             // ability1Label
             // 
             this.ability1Label.AutoSize = true;
-            this.ability1Label.Location = new System.Drawing.Point(15, 107);
+            this.ability1Label.Location = new System.Drawing.Point(99, 111);
             this.ability1Label.Name = "ability1Label";
             this.ability1Label.Size = new System.Drawing.Size(53, 17);
             this.ability1Label.TabIndex = 9;
@@ -152,7 +134,7 @@
             // ability2Label
             // 
             this.ability2Label.AutoSize = true;
-            this.ability2Label.Location = new System.Drawing.Point(15, 124);
+            this.ability2Label.Location = new System.Drawing.Point(99, 128);
             this.ability2Label.Name = "ability2Label";
             this.ability2Label.Size = new System.Drawing.Size(53, 17);
             this.ability2Label.TabIndex = 10;
@@ -161,7 +143,7 @@
             // ability3Label
             // 
             this.ability3Label.AutoSize = true;
-            this.ability3Label.Location = new System.Drawing.Point(15, 158);
+            this.ability3Label.Location = new System.Drawing.Point(99, 162);
             this.ability3Label.Name = "ability3Label";
             this.ability3Label.Size = new System.Drawing.Size(53, 17);
             this.ability3Label.TabIndex = 11;
@@ -170,7 +152,7 @@
             // ablitiesLabel
             // 
             this.ablitiesLabel.AutoSize = true;
-            this.ablitiesLabel.Location = new System.Drawing.Point(15, 90);
+            this.ablitiesLabel.Location = new System.Drawing.Point(99, 94);
             this.ablitiesLabel.Name = "ablitiesLabel";
             this.ablitiesLabel.Size = new System.Drawing.Size(64, 17);
             this.ablitiesLabel.TabIndex = 12;
@@ -179,7 +161,7 @@
             // hiddenAbilityLabel
             // 
             this.hiddenAbilityLabel.AutoSize = true;
-            this.hiddenAbilityLabel.Location = new System.Drawing.Point(15, 141);
+            this.hiddenAbilityLabel.Location = new System.Drawing.Point(99, 145);
             this.hiddenAbilityLabel.Name = "hiddenAbilityLabel";
             this.hiddenAbilityLabel.Size = new System.Drawing.Size(98, 17);
             this.hiddenAbilityLabel.TabIndex = 13;
@@ -188,7 +170,7 @@
             // evolvesFromLabel
             // 
             this.evolvesFromLabel.AutoSize = true;
-            this.evolvesFromLabel.Location = new System.Drawing.Point(18, 207);
+            this.evolvesFromLabel.Location = new System.Drawing.Point(104, 200);
             this.evolvesFromLabel.Name = "evolvesFromLabel";
             this.evolvesFromLabel.Size = new System.Drawing.Size(93, 17);
             this.evolvesFromLabel.TabIndex = 14;
@@ -199,7 +181,7 @@
             // 
             this.evolvesToComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.evolvesToComboBox.FormattingEnabled = true;
-            this.evolvesToComboBox.Location = new System.Drawing.Point(163, 207);
+            this.evolvesToComboBox.Location = new System.Drawing.Point(306, 200);
             this.evolvesToComboBox.Name = "evolvesToComboBox";
             this.evolvesToComboBox.Size = new System.Drawing.Size(121, 24);
             this.evolvesToComboBox.TabIndex = 15;
@@ -209,17 +191,45 @@
             // 
             this.nameLabel.AutoSize = true;
             this.nameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nameLabel.Location = new System.Drawing.Point(163, 28);
+            this.nameLabel.Location = new System.Drawing.Point(99, 56);
             this.nameLabel.Name = "nameLabel";
             this.nameLabel.Size = new System.Drawing.Size(64, 25);
             this.nameLabel.TabIndex = 16;
             this.nameLabel.Text = "Name";
             // 
+            // levelUpMovesListBox
+            // 
+            this.levelUpMovesListBox.Font = new System.Drawing.Font("Courier New", 6F);
+            this.levelUpMovesListBox.FormattingEnabled = true;
+            this.levelUpMovesListBox.HorizontalScrollbar = true;
+            this.levelUpMovesListBox.ItemHeight = 12;
+            this.levelUpMovesListBox.Items.AddRange(new object[] {
+            "Level            Name     Type Category   Power Accuracy Effect% PP"});
+            this.levelUpMovesListBox.Location = new System.Drawing.Point(12, 237);
+            this.levelUpMovesListBox.Name = "levelUpMovesListBox";
+            this.levelUpMovesListBox.Size = new System.Drawing.Size(479, 136);
+            this.levelUpMovesListBox.TabIndex = 17;
+            // 
+            // tmHmListBox
+            // 
+            this.tmHmListBox.Font = new System.Drawing.Font("Courier New", 6F);
+            this.tmHmListBox.FormattingEnabled = true;
+            this.tmHmListBox.HorizontalScrollbar = true;
+            this.tmHmListBox.ItemHeight = 12;
+            this.tmHmListBox.Items.AddRange(new object[] {
+            "TM/HM            Name     Type Category   Power Accuracy Effect% PP"});
+            this.tmHmListBox.Location = new System.Drawing.Point(12, 379);
+            this.tmHmListBox.Name = "tmHmListBox";
+            this.tmHmListBox.Size = new System.Drawing.Size(479, 136);
+            this.tmHmListBox.TabIndex = 18;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(314, 329);
+            this.ClientSize = new System.Drawing.Size(501, 559);
+            this.Controls.Add(this.tmHmListBox);
+            this.Controls.Add(this.levelUpMovesListBox);
             this.Controls.Add(this.nameLabel);
             this.Controls.Add(this.evolvesToComboBox);
             this.Controls.Add(this.evolvesFromLabel);
@@ -239,9 +249,6 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
             this.Text = "Pokedex";
-            ((System.ComponentModel.ISupportInitialize)(this.pokemonBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pokedexDataBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pokemonListBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -250,9 +257,6 @@
         #endregion
 
         private System.Windows.Forms.ComboBox pokemonListComboBox;
-        private System.Windows.Forms.BindingSource pokemonListBindingSource;
-        private System.Windows.Forms.BindingSource pokedexDataBindingSource;
-        private System.Windows.Forms.BindingSource pokemonBindingSource;
         private System.Windows.Forms.Label typeLabel;
         private System.Windows.Forms.Label hpLabel;
         private System.Windows.Forms.Label attackLabel;
@@ -268,6 +272,8 @@
         private System.Windows.Forms.Label evolvesFromLabel;
         private System.Windows.Forms.ComboBox evolvesToComboBox;
         private System.Windows.Forms.Label nameLabel;
+        private System.Windows.Forms.ListBox levelUpMovesListBox;
+        private System.Windows.Forms.ListBox tmHmListBox;
     }
 }
 
