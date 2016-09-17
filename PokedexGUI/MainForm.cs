@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using Newtonsoft.Json;
 using Pokedex;
-using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Windows.Forms;
 
 namespace PokedexGUI
 {
@@ -17,7 +11,7 @@ namespace PokedexGUI
     {
         PokedexData pokedex;
         Pokemon currentPokemon;
-        const string DataFileName = @"C:\Users\Eric\Documents\Visual Studio 2015\Projects\Pokedex\Data\pokedex.json";
+        const string DataFileName = @"..\..\..\Data\pokedex.json";
 
         bool updatingDisplay = false;
         List<string> levelUpMoveStrings;
@@ -78,18 +72,18 @@ namespace PokedexGUI
             levelUpMoveStrings.Add(levelUpMoveHeader);
             foreach(var v in currentPokemon.LevelUpMoves)
             {
-                levelUpMoveStrings.Add(string.Format("{0,5}{1}", v.Item1, v.Item2.ToString()));
+                levelUpMoveStrings.Add(string.Format("{0,-5}{1}", v.Item1, v.Item2.ToString()));
             }
             levelUpMovesListBox.DataSource = levelUpMoveStrings;
             tmHMMoveStrings = new List<string>();
             tmHMMoveStrings.Add(tmHmMoveHeader);
             foreach(int tm in currentPokemon.LearnableTMs)
             {
-                tmHMMoveStrings.Add(string.Format("{0,5}{1}", tm, pokedex.TMList[tm]));
+                tmHMMoveStrings.Add(string.Format("{0,-5}{1}", tm, pokedex.TMList[tm]));
             }
             foreach (int hm in currentPokemon.LearnableHMs)
             {
-                tmHMMoveStrings.Add(string.Format("{0,5}{1}", hm, pokedex.HMList[hm]));
+                tmHMMoveStrings.Add(string.Format("{0,-5}{1}", hm, pokedex.HMList[hm]));
             }
             tmHmListBox.DataSource = tmHMMoveStrings;
             updatingDisplay = false;

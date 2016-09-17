@@ -52,127 +52,141 @@
             // pokemonListComboBox
             // 
             this.pokemonListComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.pokemonListComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.pokemonListComboBox.FormattingEnabled = true;
-            this.pokemonListComboBox.Location = new System.Drawing.Point(179, 12);
+            this.pokemonListComboBox.Location = new System.Drawing.Point(12, 12);
             this.pokemonListComboBox.Name = "pokemonListComboBox";
-            this.pokemonListComboBox.Size = new System.Drawing.Size(121, 24);
+            this.pokemonListComboBox.Size = new System.Drawing.Size(121, 28);
             this.pokemonListComboBox.TabIndex = 0;
             this.pokemonListComboBox.SelectedIndexChanged += new System.EventHandler(this.pokemonListComboBox_SelectedIndexChanged);
             // 
             // typeLabel
             // 
             this.typeLabel.AutoSize = true;
-            this.typeLabel.Location = new System.Drawing.Point(231, 90);
+            this.typeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.typeLabel.Location = new System.Drawing.Point(366, 41);
             this.typeLabel.Name = "typeLabel";
-            this.typeLabel.Size = new System.Drawing.Size(40, 17);
+            this.typeLabel.Size = new System.Drawing.Size(45, 20);
             this.typeLabel.TabIndex = 1;
             this.typeLabel.Text = "Type";
             // 
             // hpLabel
             // 
             this.hpLabel.AutoSize = true;
-            this.hpLabel.Location = new System.Drawing.Point(360, 73);
+            this.hpLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.hpLabel.Location = new System.Drawing.Point(455, 73);
             this.hpLabel.Name = "hpLabel";
-            this.hpLabel.Size = new System.Drawing.Size(35, 17);
+            this.hpLabel.Size = new System.Drawing.Size(43, 20);
             this.hpLabel.TabIndex = 3;
             this.hpLabel.Text = "HP: ";
             // 
             // attackLabel
             // 
             this.attackLabel.AutoSize = true;
-            this.attackLabel.Location = new System.Drawing.Point(360, 90);
+            this.attackLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.attackLabel.Location = new System.Drawing.Point(455, 113);
             this.attackLabel.Name = "attackLabel";
-            this.attackLabel.Size = new System.Drawing.Size(55, 17);
+            this.attackLabel.Size = new System.Drawing.Size(66, 20);
             this.attackLabel.TabIndex = 4;
             this.attackLabel.Text = "Attack: ";
             // 
             // defenseLabel
             // 
             this.defenseLabel.AutoSize = true;
-            this.defenseLabel.Location = new System.Drawing.Point(360, 107);
+            this.defenseLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.defenseLabel.Location = new System.Drawing.Point(455, 153);
             this.defenseLabel.Name = "defenseLabel";
-            this.defenseLabel.Size = new System.Drawing.Size(69, 17);
+            this.defenseLabel.Size = new System.Drawing.Size(82, 20);
             this.defenseLabel.TabIndex = 5;
             this.defenseLabel.Text = "Defense: ";
             // 
             // spAttackLabel
             // 
             this.spAttackLabel.AutoSize = true;
-            this.spAttackLabel.Location = new System.Drawing.Point(360, 124);
+            this.spAttackLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.spAttackLabel.Location = new System.Drawing.Point(579, 73);
             this.spAttackLabel.Name = "spAttackLabel";
-            this.spAttackLabel.Size = new System.Drawing.Size(80, 17);
+            this.spAttackLabel.Size = new System.Drawing.Size(95, 20);
             this.spAttackLabel.TabIndex = 6;
             this.spAttackLabel.Text = "Sp. Attack: ";
             // 
             // spDefenseLabel
             // 
             this.spDefenseLabel.AutoSize = true;
-            this.spDefenseLabel.Location = new System.Drawing.Point(360, 141);
+            this.spDefenseLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.spDefenseLabel.Location = new System.Drawing.Point(579, 113);
             this.spDefenseLabel.Name = "spDefenseLabel";
-            this.spDefenseLabel.Size = new System.Drawing.Size(94, 17);
+            this.spDefenseLabel.Size = new System.Drawing.Size(111, 20);
             this.spDefenseLabel.TabIndex = 7;
             this.spDefenseLabel.Text = "Sp. Defense: ";
             // 
             // speedLabel
             // 
             this.speedLabel.AutoSize = true;
-            this.speedLabel.Location = new System.Drawing.Point(360, 158);
+            this.speedLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.speedLabel.Location = new System.Drawing.Point(579, 153);
             this.speedLabel.Name = "speedLabel";
-            this.speedLabel.Size = new System.Drawing.Size(57, 17);
+            this.speedLabel.Size = new System.Drawing.Size(66, 20);
             this.speedLabel.TabIndex = 8;
             this.speedLabel.Text = "Speed: ";
             // 
             // ability1Label
             // 
             this.ability1Label.AutoSize = true;
-            this.ability1Label.Location = new System.Drawing.Point(99, 111);
+            this.ability1Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.ability1Label.Location = new System.Drawing.Point(223, 93);
             this.ability1Label.Name = "ability1Label";
-            this.ability1Label.Size = new System.Drawing.Size(53, 17);
+            this.ability1Label.Size = new System.Drawing.Size(63, 20);
             this.ability1Label.TabIndex = 9;
             this.ability1Label.Text = "Ability1";
             // 
             // ability2Label
             // 
             this.ability2Label.AutoSize = true;
-            this.ability2Label.Location = new System.Drawing.Point(99, 128);
+            this.ability2Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.ability2Label.Location = new System.Drawing.Point(223, 113);
             this.ability2Label.Name = "ability2Label";
-            this.ability2Label.Size = new System.Drawing.Size(53, 17);
+            this.ability2Label.Size = new System.Drawing.Size(63, 20);
             this.ability2Label.TabIndex = 10;
             this.ability2Label.Text = "Ability2";
             // 
             // ability3Label
             // 
             this.ability3Label.AutoSize = true;
-            this.ability3Label.Location = new System.Drawing.Point(99, 162);
+            this.ability3Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.ability3Label.Location = new System.Drawing.Point(223, 153);
             this.ability3Label.Name = "ability3Label";
-            this.ability3Label.Size = new System.Drawing.Size(53, 17);
+            this.ability3Label.Size = new System.Drawing.Size(63, 20);
             this.ability3Label.TabIndex = 11;
             this.ability3Label.Text = "Ability3";
             // 
             // ablitiesLabel
             // 
             this.ablitiesLabel.AutoSize = true;
-            this.ablitiesLabel.Location = new System.Drawing.Point(99, 94);
+            this.ablitiesLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.ablitiesLabel.Location = new System.Drawing.Point(223, 73);
             this.ablitiesLabel.Name = "ablitiesLabel";
-            this.ablitiesLabel.Size = new System.Drawing.Size(64, 17);
+            this.ablitiesLabel.Size = new System.Drawing.Size(78, 20);
             this.ablitiesLabel.TabIndex = 12;
             this.ablitiesLabel.Text = "Abilities: ";
             // 
             // hiddenAbilityLabel
             // 
             this.hiddenAbilityLabel.AutoSize = true;
-            this.hiddenAbilityLabel.Location = new System.Drawing.Point(99, 145);
+            this.hiddenAbilityLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.hiddenAbilityLabel.Location = new System.Drawing.Point(223, 133);
             this.hiddenAbilityLabel.Name = "hiddenAbilityLabel";
-            this.hiddenAbilityLabel.Size = new System.Drawing.Size(98, 17);
+            this.hiddenAbilityLabel.Size = new System.Drawing.Size(117, 20);
             this.hiddenAbilityLabel.TabIndex = 13;
             this.hiddenAbilityLabel.Text = "Hidden Ability:";
             // 
             // evolvesFromLabel
             // 
             this.evolvesFromLabel.AutoSize = true;
-            this.evolvesFromLabel.Location = new System.Drawing.Point(104, 200);
+            this.evolvesFromLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.evolvesFromLabel.Location = new System.Drawing.Point(12, 93);
             this.evolvesFromLabel.Name = "evolvesFromLabel";
-            this.evolvesFromLabel.Size = new System.Drawing.Size(93, 17);
+            this.evolvesFromLabel.Size = new System.Drawing.Size(111, 20);
             this.evolvesFromLabel.TabIndex = 14;
             this.evolvesFromLabel.Text = "Evolves From";
             this.evolvesFromLabel.Click += new System.EventHandler(this.evolvesFromLabel_Click);
@@ -180,54 +194,55 @@
             // evolvesToComboBox
             // 
             this.evolvesToComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.evolvesToComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.evolvesToComboBox.FormattingEnabled = true;
-            this.evolvesToComboBox.Location = new System.Drawing.Point(306, 200);
+            this.evolvesToComboBox.Location = new System.Drawing.Point(12, 153);
             this.evolvesToComboBox.Name = "evolvesToComboBox";
-            this.evolvesToComboBox.Size = new System.Drawing.Size(121, 24);
+            this.evolvesToComboBox.Size = new System.Drawing.Size(121, 28);
             this.evolvesToComboBox.TabIndex = 15;
             this.evolvesToComboBox.SelectedIndexChanged += new System.EventHandler(this.evolvesToComboBox_SelectedIndexChanged);
             // 
             // nameLabel
             // 
             this.nameLabel.AutoSize = true;
-            this.nameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nameLabel.Location = new System.Drawing.Point(99, 56);
+            this.nameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.nameLabel.Location = new System.Drawing.Point(365, 12);
             this.nameLabel.Name = "nameLabel";
-            this.nameLabel.Size = new System.Drawing.Size(64, 25);
+            this.nameLabel.Size = new System.Drawing.Size(78, 29);
             this.nameLabel.TabIndex = 16;
             this.nameLabel.Text = "Name";
             // 
             // levelUpMovesListBox
             // 
-            this.levelUpMovesListBox.Font = new System.Drawing.Font("Courier New", 6F);
+            this.levelUpMovesListBox.Font = new System.Drawing.Font("Courier New", 10F);
             this.levelUpMovesListBox.FormattingEnabled = true;
             this.levelUpMovesListBox.HorizontalScrollbar = true;
-            this.levelUpMovesListBox.ItemHeight = 12;
+            this.levelUpMovesListBox.ItemHeight = 20;
             this.levelUpMovesListBox.Items.AddRange(new object[] {
-            "Level            Name     Type Category   Power Accuracy Effect% PP"});
+            "Level            Name     Type Category   Power Accuracy Effect% PP Description"});
             this.levelUpMovesListBox.Location = new System.Drawing.Point(12, 237);
             this.levelUpMovesListBox.Name = "levelUpMovesListBox";
-            this.levelUpMovesListBox.Size = new System.Drawing.Size(479, 136);
+            this.levelUpMovesListBox.Size = new System.Drawing.Size(752, 244);
             this.levelUpMovesListBox.TabIndex = 17;
             // 
             // tmHmListBox
             // 
-            this.tmHmListBox.Font = new System.Drawing.Font("Courier New", 6F);
+            this.tmHmListBox.Font = new System.Drawing.Font("Courier New", 10F);
             this.tmHmListBox.FormattingEnabled = true;
             this.tmHmListBox.HorizontalScrollbar = true;
-            this.tmHmListBox.ItemHeight = 12;
+            this.tmHmListBox.ItemHeight = 20;
             this.tmHmListBox.Items.AddRange(new object[] {
-            "TM/HM            Name     Type Category   Power Accuracy Effect% PP"});
-            this.tmHmListBox.Location = new System.Drawing.Point(12, 379);
+            "TM/HM            Name     Type Category   Power Accuracy Effect% PP Description"});
+            this.tmHmListBox.Location = new System.Drawing.Point(12, 487);
             this.tmHmListBox.Name = "tmHmListBox";
-            this.tmHmListBox.Size = new System.Drawing.Size(479, 136);
+            this.tmHmListBox.Size = new System.Drawing.Size(752, 244);
             this.tmHmListBox.TabIndex = 18;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(501, 559);
+            this.ClientSize = new System.Drawing.Size(768, 737);
             this.Controls.Add(this.tmHmListBox);
             this.Controls.Add(this.levelUpMovesListBox);
             this.Controls.Add(this.nameLabel);

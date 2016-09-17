@@ -8,7 +8,7 @@ namespace GeneratePokedexData
 {
     class Program
     {
-        const string fileName = @"C:\Users\Eric\Documents\Visual Studio 2015\Projects\Pokedex\Data\pokedex.json";
+        const string fileName = @"..\..\..\Data\pokedex.json";
 
         static void Main(string[] args)
         {
